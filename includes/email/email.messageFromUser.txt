@@ -1,0 +1,10 @@
+
+Hello %ADMIN_NAME%,
+
+%USER_NAME% has send you a message regarding %PLAYER_NAME%'s player card.
+
+
+To view the message, login and go to your home page or use this link.
+
+https://playerfax.com/index.php?page=home
+

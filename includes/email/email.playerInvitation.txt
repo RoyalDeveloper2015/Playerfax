@@ -1,0 +1,7 @@
+%NAME%, You have been invited to join Playerfax by %ADMIN_NAME%
+
+Please go to the registration page using this link:
+https://playerfax.com/index.php?page=registration&token=%CONFIRM_TOKEN%
+
+
+If this message was not intended for you, then simply ignore it and this invitation will be deleted.

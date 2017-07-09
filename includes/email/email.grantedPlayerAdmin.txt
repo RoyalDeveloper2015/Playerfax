@@ -1,0 +1,6 @@
+
+Hello %USER_NAME%,
+
+%ADMIN_NAME% has granted Admin rights for %PLAYER_NAME%'s player card. You now have rights to modify this player card.
+
+

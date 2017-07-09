@@ -1,0 +1,923 @@
+@media (min-width: 768px){
+    .bottom_navigation{display: none;}
+}
+@media(max-width:1920px){
+    .slider_text{padding-top: 26.5%;}
+}
+@media(max-width:1600px){
+    .login_section{padding-bottom: 102px;}
+    .slider_text{padding-top: 16%;}
+    .home_slider{padding-bottom: 62px;}
+}
+@media(max-width:1199px){
+    /***********************Header Section***********************/
+    .header_navigation { margin-right: 0px;}
+    .header_navigation .navbar-nav>li{margin-left: 34px;}
+    .header_navigation .navbar-nav>li:before{left: -18.5px;}
+    
+    /********Login page css**********/
+    .login_section{padding: 80px 0 40px;}
+    h1{font-size: 36px;}
+   
+    /********Forgetpassword page css **********/
+    .forget_section .blue_btn,.forget_section p{margin-top: 20px;}
+    .modal-body,.player_p_section .modal-body {padding: 40px;}
+    .close_img{padding: 25px;}
+    .title_h2{padding: 10px 30px;}
+    .title_h2 h2,.player_p_section .modal-body h2{font-size: 22px;}
+    
+    /***********************Footer Section***********************/
+    footer{padding: 40px 0px;}
+    footer p{padding-top: 30px;}
+   
+    /********Profile page css start**********/
+    .player_p_section .modal-body h2{margin-bottom: 20px;}
+    
+    /***********************Footer Contact Section***********************/
+    .footer_contact {padding: 50px 0px;}
+    
+    /***********************Home Slider Section***********************/
+    .home_slider .flexslider .slides > li span.slider_title{font-size: 60px;}
+    .home_slider .flexslider .slides > li span.title {font-size: 50px;}
+    .home_slider .flexslider .slides > li h2{font-size: 28px;}
+    .slider_text {padding-top: 14%;}
+    .home_slider .flexslider .slides > li a{font-size: 36px;margin-top: 30px;}
+    .home_slider{padding-bottom: 54px;}
+    
+    /***********************Home Report Card Section***********************/
+    .report_card {padding-top: 0px;}
+    span.slider_title, span.title{font-size: 38px;}
+    span.title{    padding-bottom: 14px;}
+    .report_card p{line-height: 30px;}
+    
+    /***********************Home How It Works Section***********************/
+    .how_it_works span span.final {font-size: 60px;}
+    .how_it_works span{font-size: 40px;    line-height: 40px;}
+    #how_it_works {padding: 50px 0px 40px;}
+    .how_it_works span.create{font-size: 50px;padding-top: 10px;}
+    .how_it_works a{font-size: 36px;}
+    .player_image {top: 31px;}
+    
+     /********Profile page css**********/
+    .player_accordion .panel-title a{padding: 14px 30px 14px 65px;font-size: 20px;height: 50px;}
+    .player_img1{width: 50px;height: 50px;}
+    .td,.th{font-size: 18px;padding: 12px 15px;}
+    .player_accordion .th{padding: 12px 15px;}
+    .player_accordion .td input{margin-bottom: 0;}
+    .panel-title:before{width: 35px;height: 30px;}
+    .active .panel-title:after{left: 9px;top: 15px;}
+    .player_accordion {width: 557px;}
+    .player_accordion .td input{font-size: 18px;}
+    .player_accordion .panel-title a, .player_accordion .panel-body .player_table{ width: 507px;}
+    .popup_black_btn li a{width: 145px;}
+    .blue_info_contain h4{width: 64px;font-size: 16px;padding: 15px 0;}
+    .blue_info_contain p span{letter-spacing: 0;}
+    .blue_info_contain p{font-size: 16px;}
+    .member_info{margin-left: 7px;}
+    .profile_contain a.view_a{margin: 30px 0;}
+    .profile_contain h3{font-size: 24px;margin-bottom: 20px;}
+    .profile_contain .img_preview .img-circle {min-height: 231px;}
+    .blue_link_member a{font-size: 16px;}
+    
+    /***********************Home Steps Section***********************/
+    .steps_data span.number {font-size: 104px;    padding-left: 60px;}
+    .steps_info h2{padding-top: 0px;    padding-bottom: 4px;}
+    .steps_data img {top: -24px;}
+    
+    /***********************User Home ***********************/
+    .img_preview .img-circle{min-height: 120px;}
+    .team_members .img_preview { height: 130px; width: 130px;}
+    .team_members .img_preview .img-circle { min-height: 120px;  width: 120px;}
+    .team_more h4{font-size: 18px;}
+    .team_more a{padding: 10px 0;font-size: 14px;}
+    .user_left .msg_content {  width: 45%;}
+    .like_share { width: 39%; }
+    .wall_img iframe{min-height: 235px;}
+    .team_section{margin-bottom: 15px;}
+    .single_wall{margin-top: 35px;}
+    /***********************User Home Emd ***********************/
+    
+    /***********************Home Benefits Section***********************/
+    .benefits {padding: 40px 0px 50px;}
+    .benefits_title {padding-bottom: 34px;}
+    .benefit_text span{font-size: 22px;padding-bottom: 0px;}
+    .benefit_data p {font-size: 20px;line-height: 30px;padding-bottom: 22px;}
+    .benefit_text p{padding-bottom: 14px;}
+    .benefit_text {min-height: 255px;}
+    
+    /***********************Home Services Section***********************/
+    .services_text {padding-top: 34px;}
+    .services_data h4{padding-top: 32px;}
+    .services {padding: 50px 0px 0px;}
+    .services h2{padding-bottom: 30px;}
+    
+    .add_players{top: 140px;padding: 30px 0;}
+    .matches{margin: 0px 0 20px;padding: 20px 40px; text-align: center;}
+    .create_players{top: 140px;}
+    
+    /***********************Home Sports Section***********************/
+    .sports {padding: 50px 0px 0px;}
+    .sports_text{min-height: 106px;margin-bottom: 40px;}
+    .sports h2{padding-bottom: 70px;}
+    
+    /***********************Home Testimonial Section***********************/
+    .testimonial{padding: 50px 0px;}
+    
+    /***********************Home Final Section***********************/
+    .finally span{font-size: 70px;}
+    .finally a{font-size: 40px;}
+    
+    .profile_tab_menu{border-bottom: 0;}
+    .profile_tab_menu > ul{ width: 100%;border-bottom: 3px solid #003871; }
+    .add_sport_btn{margin: 0;}
+    .add_sport_btn a{padding: 10px;}
+    .single_detail label{    max-width: 110px;font-size: 14px;}
+    .single_detail span{padding: 10px 0;width: 55px;font-size: 14px;}
+    .single_detail.dark span{font-size: 20px;}
+    .single_detail.dark span label{font-size: 18px;}
+    .big_chart_desc li { width: 48%;}
+    .single_graph_small{vertical-align: top;}
+    .home_slider .flexslider .slides img { min-height: 575px; max-height: 575px;}
+    .home_slider .flex-direction-nav .flex-prev, .home_slider .flexslider:hover .flex-direction-nav .flex-prev { left: 100px;}
+    .home_slider .flex-direction-nav .flex-next, .home_slider .flexslider:hover .flex-direction-nav .flex-next { right: 100px;}
+
+    /***********************New Popup***********************/
+    .change_step li .step_number:after{ width: 100%; background-size: 80%; }
+    .add_admins_middle p{ margin-top: 0; }
+    .input_box,form.media_popup.add_new_events select{ font-size: 12px; }
+    .add_admins_left {  width: 100%; float: none;}
+    .add_admins_middle {  width: 100%; float: none;}
+    .add_admins_right {  width: 100%; float: none;}
+    .add_table_col { font-size: 13px;}
+    .green_btn, .gray_link{ text-align: center; }
+    .green_btn input{ margin-right: 0; }
+    .event_time p{ margin: 0; }
+    
+    /*Director Page*/
+    .player_title {margin-left: 30px;margin-right: 40px;}
+    .camp_grade {margin-right: 30px;}
+}
+@media(max-width:991px){
+    /***********************Header Section***********************/
+    .header_navigation .navbar-nav>li{margin-left: 15px;}
+    .header_navigation .navbar-nav>li:before{left: -10.5px;}
+    .header_navigation .navbar-nav>li>a {font-size: 13px;}
+    .header_navigation .navbar-nav {padding-top: 12px;}
+    
+    /********Login page css**********/
+    .login_contain{padding: 25px 0 25px 30px;width: 40%;margin: 51px 0 0 -45px;}
+    .login_contain:before{height: 390px;}
+    h1{font-size: 30px;}
+    .men_img{width: 65%;height: auto;}
+    .imgmen{width: 75%;}
+    .login_section {padding: 50px 0 57px;}
+    
+    /********Registration page css end**********/
+    .register_section .login_contain {width: 40%;}
+    .register_section .imgmen {width: 88%;}
+    
+    /********Forgetpassword page css**********/
+    .modal-body,.player_p_section .modal-body {padding: 30px;}
+    .title_h2 h2,.player_p_section .modal-body h2{font-size: 20px;}
+    
+    /***********************Footer Section***********************/
+    footer{padding: 30px 0px;}
+    footer p{padding-top: 20px;}
+    
+    /***********************Footer Contact Section***********************/
+    .footer_contact {padding: 40px 0px;}
+    .footer_contact h3 {font-size: 26px;}
+    .footer_contact h2 {font-size: 30px;padding-bottom: 18px}
+    .footer_contact input[type="text"]{height: 36px;}
+    
+    /***********************Home Slider Section***********************/
+    .home_slider .flexslider .slides > li span.slider_title {font-size: 44px;}
+    .home_slider .flexslider .slides > li span.title {font-size: 36px;}
+    .home_slider .flexslider .slides > li h2 {font-size: 24px;}
+    .slider_text {padding-top: 12%;}
+    .home_slider .flex-direction-nav a{width: 52px;height: 52px;}
+    .home_slider .flexslider .slides > li a {font-size: 26px;margin-top: 20px;}
+    .home_slider {padding-bottom: 40px;}
+    
+    /***********************Home Report Card Section***********************/
+    .report_data {padding: 40px 0px;}
+    .report_card p {font-size: 18px;line-height: 24px;padding-bottom: 20px;}
+    span.slider_title, span.title {font-size: 28px;}
+    span.title {padding-bottom: 6px;}
+    
+    /***********************Home How It Works Section***********************/
+    .how_it_works span span.final {font-size: 50px;}
+    .how_it_works span{font-size: 32px;    line-height: 32px;}
+    #how_it_works {padding: 30px 0px;}
+    .how_it_works span.create{font-size: 40px;padding-top: 10px;}
+    .how_it_works a{font-size: 26px;}
+    .player_image {top: 34px;}
+    .how_it_works h3{font-size: 26px;width: 256px;}
+    .how_it_works h2 {font-size: 30px;width: 256px;padding-bottom: 18px;}
+    
+    /***********************Home Steps Section***********************/
+    .steps_data span.number {font-size: 90px;    padding-left: 34px;}
+    .steps_data span.step_text {font-size: 46px;}
+    .steps_data img {left: 96px;top: -34px;}
+    .steps_info h2{font-size: 26px;}
+    .steps_info p{font-size: 16px;line-height: normal;}
+    
+    /***********************User Home ***********************/
+    .team_members { width: 100%;margin-bottom: 10px; margin-right: 0;}
+    .team_more { text-align: center; width: 100%;}
+    .team_more a { padding: 10px 30px;min-height: 42px; width: auto;margin: 0 5px;}
+    .user_profile_main .col-sm-2 { width: 20%;}
+    .user_profile_main .col-sm-10 { width: 80%;}
+    .user_profile_main .col-sm-5.pull-right { width: 100%; margin-bottom: 15px;}
+    .user_profile_main .col-sm-7 { width: 100%; margin-bottom: 15px;}
+    .single_wall {  margin-top: 25px;}
+    .img_preview .img-circle {min-height: 108px;}
+    /***********************User Home End ***********************/
+    
+     /********Profile page css**********/
+    .popup_black_btn li a {width: 126px;letter-spacing: 0;}
+    .popup_black_btn li a span{width: 100%;}
+    .profile_contain .img_preview .img-circle {min-height: 170px; width: 170px;}
+    .profile_contain .img_preview { max-height: 180px; width: 180px;}
+    .profile_contain h3 {font-size: 18px;margin-bottom: 15px;}
+    .profile_contain a.view_a {margin: 20px 0;}
+    .blue_link_member a {font-size: 16px;margin: 0;height: 42px;}
+    .blue_link_member a.right_radius{margin-bottom: 10px;}
+    .blue_info_contain h4 {margin-bottom: 0; width: 115px; padding: 15px 0px;}
+    .member_info {margin-left: 0;}
+    
+    /***********************Home Benefits Section***********************/
+    .benefit_img img{margin: 0 auto;}
+    .benefits {padding: 40px 0px;}
+    .benefit_text {min-height: 1px;}
+    .benefit_desc {padding-bottom: 25px;}
+    .benefit_data p {font-size: 18px;line-height: 26px;}
+    .benefits h2 {font-size: 30px;}
+    .benefits h3 {font-size: 26px;}
+    .benefits_title {padding-bottom: 22px;}
+    .benefits_title span{font-size: 76px;}
+    
+    /***********************Home Services Section***********************/
+    .services {padding: 40px 0px 0px;}
+    .services_data h4{font-size: 18px;}
+    .services_data h4:before{left: -46px;}
+    .services_data h4.manage:before {background-position: -43px -182px;width: 30px;left: -30px;}
+    .services_data h4.maintain:before{left: -38px;}
+    .services_text {padding-top: 18px;min-height: 330px;}
+    .services_text p{    padding-bottom: 10px;}
+    .services h2 {padding-bottom: 30px;font-size: 30px;}
+    .services h3{font-size: 26px;}
+    .add_players { top: 278px;}
+    .matches_img{width: 70px; height: 70px;float: none; margin-right: 0; margin: 10px auto 0;}
+    .blue_btn.search_btn{margin: 0px 0 10px;}
+    .matches .title h4 { font-size: 18px;}
+    img.plus {  width: 30%; top: 0px; left: 1px;}
+    .create_players { top: 278px; padding: 30px 0;}
+    
+    /***********************Home Sports Section***********************/
+    .sports h3 {font-size: 26px;}
+    .sports h2 {font-size: 30px;padding-bottom: 40px;}
+    .sports {padding: 40px 0px 0px;}
+    .sports_text {margin-bottom: 20px;}
+    
+    /***********************Home Testimonial Section***********************/
+    .testimonial{padding: 40px 0px;}
+    .testimonial_slider ul li p{line-height: 24px;padding-top: 34px;}
+    .testimonial_slider .flex-direction-nav a:before{width: 16px;}
+    .testimonial_slider .flex-direction-nav a.flex-next:before {background-position: -215px -182px;}
+    
+    /***********************Home Final Section***********************/
+    .finally span{font-size: 60px;}
+    .finally a{font-size: 36px;}
+    .finally{padding: 20px 0px 40px;}
+    .finally h2{padding: 0px 0px 28px;    font-size: 30px;}
+    
+    .profile_section .col-md-4 { width: 70%;  margin: 0 auto 15px;}
+    .home_slider .flexslider .slides img { min-height: 400px;max-height: 400px;}
+    .slider_text{bottom: 70px;}
+
+
+    /******************** New Menu ************************/
+    .user_menu ul {  margin-top: 10px;    padding: 0;}
+    .user_menu li {   margin: 0 10px;}
+    .sub_menu{ top: 45px; width: 346px; padding: 12px;}
+    .sub_menu a { width: 155px;    padding: 14px 0;    font-size: 14px;}
+
+    /***********************New Popup***********************/
+    .change_step li .step_number:after {  background-size: 71%;    margin-top: 9px;}
+    form.media_popup.add_new_events input.input_box, form.media_popup.add_new_events select{ width: 44%; }
+    form.media_popup.add_new_events .textarea_box, form.media_popup.add_new_events input.input_box.full_box{ width: 90.9%; }
+    .add_table_col {    font-size: 10px;}
+
+    /*Director Page*/
+    .scoring_table .scoring_head .scoring_title:nth-child(3), .scoring_table .scoring_body .scoring_col:nth-child(3) {width: 12%;}
+    .scoring_table .scoring_body .scoring_col {font-size: 16px;}
+    .other_admins {margin-top: 30px;}
+    
+    .user_result h4{margin-left: 0px;    font-size: 20px;}
+    .camp_grade label{margin-right: 14px;    font-size: 16px;}
+    .camp_grade span{font-size: 16px;}
+    .player_title{margin-right: 20px;    font-size: 20px;}
+    .camp_grade {margin-right: 6px;}
+    .scoring_result .scoring_table .scoring_head .scoring_title:first-child, .scoring_result .scoring_table .scoring_body .scoring_col:first-child{padding-left: 20px; width: 28%;}
+    a.bac_to_page{padding-left: 20px;    font-size: 16px}
+    span.score {width: 40px;height: 40px;padding: 9px 4px;}
+}
+@media(max-width:767px){
+    /***********************Header Section***********************/
+    header.before_login {position: relative;}
+    .logo a{display: inline-block;}
+    .header_navigation .navbar-nav>li{display: block;text-align: center;margin: 0px;margin-bottom: 10px;}
+    .header_navigation .navbar-nav>li:before{display: none;}
+    .header_bottom {padding: 10px 0px 4px;}
+    .header_navigation .navbar-nav>li>a {font-size: 14px;}
+    .header_navigation .navbar-nav>li:last-child{margin-bottom: 0px;}
+    .search_box input[type="submit"]{height: 32px;right: 3px;background-position: -21px -18px;}
+    .header_social ul, .header_login ul{ margin-bottom: 0; } 
+    
+    /********Login page css**********/
+    .home_logo {bottom: inherit;margin: auto;position: relative; top: inherit;left: inherit;}
+    .imgmen {text-align: center;margin: 0 auto;}
+    .login_contain{text-align: center;width: 100%;padding: 0;margin: 0;}
+    .login_contain:before{display: none;}
+    .remember_text {text-align: left;margin: 0;}
+    .blue_btn{margin: 10px auto;}
+    .blue_btn input{padding: 5px 15px;}
+    .input_box{margin-bottom: 15px;padding: 5px 15px;}
+    .login_contain form {margin-top: 15px;}
+    .men_img{display: block;width: 100%;height: auto;}
+    .login_section {padding: 30px 0;}
+    h1{font-size: 26px;}
+    
+    /********Registration page css**********/
+    .register_section .home_logo {top: inherit;}
+   .register_section .imgmen {width: 75%;margin: 15px auto 0;}
+    .register_section .login_contain {width: 100%; margin-top: 0;}
+    
+    /********Forgetpassword page css**********/
+    .modal-dialog{margin: 30px auto;}
+    .close_img {padding: 10px 15px;}
+    .title_h2 { padding: 10px 20px;text-align: center;}
+    .modal-body ,.player_p_section .modal-body{padding: 20px 15px;}
+    .forget_section label{font-size: 16px;}
+    .forget_section p{font-size: 14px;margin-top: 15px;text-align: center;}
+    .forget_section .blue_btn{margin-top: 15px;}
+    .blue_btn{margin-top: 15px;text-align:center;}
+    
+    /***********************Footer Section***********************/
+    footer{padding: 20px 0px;}
+    footer p {padding-top: 10px;}
+    
+    /********Profile page css start**********/
+    .checkbox_section .checkbox input[type="checkbox"],.checkbox_section .checkbox label::before{width: 18px;height: 18px;}
+    .checkbox_section .checkbox input[type="checkbox"]:checked + label::after{left: 4px;top: 4px;}
+    .checkbox_section .checkbox label{line-height: 18px;font-size: 14px;padding-left: 25px;letter-spacing: 1px;}
+    .checkbox_section .checkbox{margin-bottom: 5px;}
+    .checkbox_section .blue_btn a {padding: 4px 10px 7px;}
+    .checkbox_section .blue_btn{margin-bottom: 15px;} 
+    .fileUpload{padding: 1px 0;}
+    .media_popup{width: 100%;}
+    .sport_popup {width: 100%; padding-top: 0;}
+    .forget_section .sport_popup .blue_btn{margin-top: 0;}
+    .radio+.radio{margin-bottom: 20px;}
+    .radio_text{min-height: 26px;}
+    .radio{width: 24.4%;}
+    .media_popup .blue_btn input,.sport_popup .blue_btn input{padding: 5px 15px;}
+    .player_accordion .panel-title a{padding: 13px 15px 13px 60px;font-size: 18px;height: 45px;}
+    .player_img1{width: 45px;height: 45px;}
+    .td,.th{font-size: 18px;padding: 12px 15px;}
+    .player_accordion .th{padding: 12px 15px;}
+    .player_accordion .td input{margin-bottom: 0;}
+    .panel-title:before{width: 35px;height: 30px;}
+    .profile_tab .panel-title:before{display: none;}
+    .player_accordion {width: 420px;margin-bottom: 20px;}
+    .player_accordion .th ,.td{padding: 9px 5px;font-size: 16px;}
+    .player_accordion .td input{font-size: 16px;padding: 5px 14px;}
+    .player_accordion .th:first-child{width: auto;}
+    .player_accordion .panel-title a, .player_accordion .panel-body .player_table{width: 370px;}
+    .player_accordion .active .panel-title a:after{background: none;content: '-';font-weight: bold;
+                                                   font-size: 40px;width: auto;height: auto;margin: 0;line-height: 13px;}
+    .player_accordion .panel-title a:after,
+    .player_accordion .active .panel-title a.collapsed:after{background: none;content: '+';font-weight: bold;
+                                           font-size: 30px;width: auto;height: auto;margin: 0;line-height: 16px;}
+    .timeline_section{width: 100%;padding: 15px;}
+    .timline_img_contain {margin-top: 10px;}
+    .timeline_section .timline_img_name p{margin-bottom: 0;}
+    .timline_img_name {margin-left: 10px;}
+    .timline_img {width: 125px;height: 85px;}
+    .blue_link_member a{width: 49%;}
+    .blue_link_member a.right_radius{border-top-right-radius: 3px;border-bottom-right-radius: 12px;margin-bottom: 0px;}
+    .blue_link_member a.left_radius{border-top-left-radius: 3px;border-bottom-left-radius: 12px;}
+    .blue_info_contain h4{width: 65px;margin-bottom: 0;}
+    .member_info {margin-left: 10px;margin-top: -5px;}
+    .blue_info_contain p{margin-bottom: 0;}
+    .profile_contain .img_preview{width: 181px;}
+    .profile_contain a.view_a {margin: 10px 0 15px;}
+    .blue_link_member{margin-bottom: 15px;}
+    .profile_contain{margin-bottom: 30px;}
+    .popup_black_btn li a{width: 120px;}
+    .popup_black_btn {margin: 0 auto;text-align: center;}
+
+    
+    /***********************Footer Contact Section***********************/
+    .footer_contact {padding: 25px 0px;}
+    .footer_contact h3 {font-size: 20px;}
+    .footer_contact h2 {font-size: 24px;padding-bottom: 8px}
+    .footer_contact input[type="text"]{height: 32px;}
+    .footer_contact input[type="submit"]{    padding: 13px 40px;    margin: 10px auto 0;}
+
+    /***********************Home Slider Section***********************/
+    .slider_text {padding-top: 8%;}
+    .home_slider .flexslider .slides > li span.slider_title {font-size: 30px;}
+    .home_slider .flexslider .slides > li span.title {font-size: 26px;}
+    .home_slider .flexslider .slides > li h2 {font-size: 20px;}
+    .home_slider .flexslider .slides > li a {font-size: 20px;margin-top: 12px;}
+    .home_slider .flex-direction-nav a:before {width: 7px;}
+    .home_slider .flex-direction-nav a.flex-next:before {background-position: -238px 0px;}
+    .home_slider .flex-direction-nav a {width: 40px;height: 40px;}
+    
+    /***********************Home Report Card Section***********************/
+    .report_data {padding: 25px 0px;text-align: center;}
+    .report_card {padding-top: 10px;}
+    .report_img{display: inline-block;}
+    span.slider_title, span.title {font-size: 24px;}
+    .report_card p {font-size: 16px;line-height: normal;padding-bottom: 14px;}
+    .report_card a{font-size: 16px;    padding: 3px 16px;}
+    .report_card a.blue {margin-right: 6px;}
+    
+    /***********************Home How It Works Section***********************/
+    #how_it_works {padding: 25px 0px;}
+    .player_image {top: auto;position: relative;width: 400px;margin: 0 auto;}
+    .how_it_works h3{width: 100%;font-size: 20px;}
+    .how_it_works h2{width: 100%;font-size: 24px;padding-bottom: 8px;}
+    .how_it_works span {text-align: center;font-size: 26px;}
+    .how_it_works span span.final {font-size: 40px;}
+    .how_it_works{text-align: center;padding-top: 10px;}
+    .how_it_works a{font-size: 20px;}
+    
+    /***********************Home Steps Section***********************/
+    .step_img {display: inline-block;height: 100px;overflow: hidden;vertical-align: middle;}
+    .steps_data img{position: relative;top: -47px;left: auto;}
+    .steps_data span.step_text {font-size: 36px;}
+    .steps_data span.number {    font-size: 76px;padding-left: 14px;line-height: normal;}
+    .steps_data, .steps_info{text-align: center;}
+    .steps_info h2 {font-size: 22px;}
+    
+    /***********************User Home ***********************/
+    .user_menu {  text-align: center;}
+    .after_login .logo {  text-align: center;}
+    .user_menu ul { margin: 5px 0;}
+    .user_menu li{    margin: 0 10px;}
+    .user_menu li a{font-size: 13px;}
+    .user_profile_main .col-sm-2 { width: 180px; margin: 0 auto 10px;}
+    .user_profile_main .col-sm-10 { width: 100%;}
+    .user_profile_main .col-sm-5.pull-right { width: 80%; margin-bottom: 15px; float: none !important; margin: 0 auto 10px;}
+    .user_profile_main .col-sm-7 { width: 80%;  margin: 0 auto;}
+    .img_preview{margin-top: 0;}
+    .title h4 { text-align: center;}
+    .team_members li{width: 33%; margin: 0 0 10px 0;position: relative;}
+    .img_preview .img-circle {min-height: 138px;}
+    /***********************User Home End ***********************/
+    
+    /***********************Home Benefits Section***********************/
+    .benefit_img img{margin: 0 auto;}
+    .benefits {padding: 25px 0px;}
+    .benefits h2 {font-size: 24px;}
+    .benefits h3 {font-size: 20px;}
+    .benefits_title span{font-size: 64px;letter-spacing: 2px;}
+    .benefits_title {padding-bottom: 18px;}
+    .benefit_text span {font-size: 20px;}
+    .benefit_text p {padding-bottom: 8px;}
+    .benefit_data p {font-size: 16px;line-height: normal;    padding-bottom: 14px;}
+    
+    /***********************Home Services Section***********************/
+    .services_text {min-height: 1px;    padding-top: 10px;}
+    .services_data{padding-bottom: 30px;}
+    .services h2 {padding-bottom: 0px;font-size: 24px;}
+    .services h3{font-size: 20px;}
+    .services {padding: 25px 0px 0px;}
+    .services_data h4 {font-size: 18px;padding-top: 20px; padding-bottom: 6px;}
+    .services_data h4:before{top:15px;}
+    .add_players { top: 495px;border: 5px solid #0c5e16;}
+    .add_players .col-sm-10 { width: 90%; margin: 0 auto;}
+    .matches .col-sm-4 {  width: 33.33%; float: left;}
+    .machename{width: 100%;margin-top: 10px; margin-bottom: 10px;}
+    .matches .title h4 { margin-bottom: 15px;}
+    .matches { margin: 0px 0 20px; padding: 10px 20px;}
+    .btns_bottom_text span { font-size: 18px;}
+    .create_player{font-size: 18px;padding: 5px 60px 5px 30px;}
+    .create_players { top: 495px; padding: 20px 0; border: 5px solid #0c5e16;}
+    .create_players .col-sm-10 { width: 80%; margin: 0 auto;}
+    .create_players .btns_bottom_text { text-align: center;}    
+    
+    /***********************Home Sports Section***********************/
+    .sports h3 {font-size: 20px;}
+    .sports h2 {font-size: 24px;padding-bottom: 20px;}
+    .col_5{width: 24%;}
+    .sports {padding: 25px 0px 0px;text-align: center;}
+    .sports_text h4 {font-size: 20px;}
+    .sports_text {padding-top: 10px;padding-bottom: 0px;min-height: 80px;}
+    
+    /***********************Home Testimonial Section***********************/
+    .testimonial{padding: 25px 0px;background-size: cover;background-position: 50% 50%;}
+    .testimonial_slider ul li p{line-height: normal;padding-top: 20px;font-size: 16px;    padding-bottom: 18px;}
+    .testimonial_slider ul li span {font-size: 20px;padding-bottom: 10px;}
+    
+    /***********************Home Final Section***********************/
+    .finally {padding: 15px 0px 25px;}
+    .finally span{font-size: 50px;}
+    .finally h2 {padding: 0px 0px 20px;font-size: 24px;margin-top: -8px;}
+    .finally a {font-size: 28px;    padding: 5px 18px;}
+    .graphics_charts { width: 100%;}
+    .big_chart img { width: 100%;}
+    .graphics_details { width: 100%; margin: 10px 0 0;}
+    .single_detail span { padding: 12px 0; width: 75px;}
+    .panel-group{margin-bottom: 10px;}
+    .add_sport_btn { margin: 0 auto 10px; display: table;}
+    .graph_title p { font-size: 16px;}
+    
+    .profile_tab .panel-heading{padding: 0px;border-radius: 0px;}
+    .profile_tab .panel-heading a{padding: 10px 15px;display: inline-block;width: 100%;font-family: 'Lato-Bold';}
+    .profile_tab .panel-heading a.js-tabcollapse-panel-heading{background-color: #003871; color: #fff;}
+    .profile_tab .panel-heading a.js-tabcollapse-panel-heading.collapsed{background-color: #f2f2f2;color: #555;}
+    a.swimming:before, a.baseball:before{display: none;}
+    .profile_tab .panel-default:first-child .panel-heading a{text-transform: uppercase;}
+    .profile_tab .panel.panel-default{border-radius: 0px;}
+    .home_slider .flexslider .slides img {  min-height: 330px; max-height: 330px;}
+    ul{ padding: 0; }
+
+    /******************** New Menu ************************/
+    .sub_menu{ top: 35px; }
+
+    /***********************New Popup***********************/
+    form.media_popup.add_new_events input.input_box, form.media_popup.add_new_events select, form.media_popup.add_new_events .textarea_box, form.media_popup.add_new_events input.input_box.full_box{ width: 100%; margin: 0 0 18px; }
+    form.media_popup.add_new_events{ width: 100%; }
+    .change_step li .step_number:after{ background-size: 65%; }
+    .gray_btn input{ padding: 5px 15px; }
+    .all_btn .blue_btn input{ padding: 5px 15px; }
+    .green_btn,.add_admins_left .noti_content a{ text-align: center; }
+    .green_btn input{ padding: 5px 15px;      margin-right: 0;}
+    .add_admins_fullcontent span{ font-size: 18px; }
+    .add_admins_full h4{ font-size: 18px; }
+    .add_admins_middle p{ margin: 15px 0; }
+    .add_admins_fullcontent {   padding: 5px 0 10px; }
+    .add_admins_left .noti_content p{ text-align: left; }
+    #myModal23 .add_admins_left .noti_content li { width: 100%; }
+    .gray_link{ text-align: center; }
+    .add_players_table {  overflow: auto;}
+    .add_table {  width: 800px;    overflow: auto;}
+    .manage_accordion{ width: 100%; }
+    .event_time {    float: none;    width: 100%;    text-align: center;    }
+    .event_img {    float: none;    width: auto;    margin-left: 0;    margin-top: 15px;}
+    .event_img img{ margin: auto; }
+    .event_title h5{ text-align: center; }
+    .all_edit_btn a { margin: 0 2.5px 10px; }
+    .tags{ text-align: center; }
+    .manage_accordion .panel-title a:after, .manage_accordion .active .panel-title a.collapsed:after {  background: transparent; color: #555; content: '+';font-weight: bold; font-size: 30px; width: auto; height: auto; line-height: 16px;  margin: -9px 0px;}
+    .manage_accordion .active .panel-title a:after { background: transparent; color: #555;  content: '-';  font-weight: bold;  font-size: 40px;  width: auto; height: auto;  line-height: 13px;     margin: -8px 0px;}
+    .manage_accordion .panel-title a{ font-size: 16px; }
+
+    /*Director Page*/
+    .scoring_title {font-size: 16px;}
+    .score_edit:before{    background-position: -140px -222px;    width: 22px;height: 22px;}
+    
+    .user_result {margin-bottom: 0px;background-color: #00c9ff;    padding: 5px 0px;}
+    .camp_grade label{color: #003871;}
+    .camp_grade span{color: #fff;}
+    .user_result h4{color: #fff;}
+    .user_result a.bac_to_page{display: none;}
+    .player_title {margin-left: 10px;}
+    .score_description{margin: 5px;}
+   
+    .director_upload .col-sm-2{display: none;}
+    .header_mobile{display: block;    padding: 10px 0px;}
+    .header_desk{display: none;}
+    section.user_profile_main.director_upload{padding-top: 0px;    padding-bottom: 0px;}
+    .director_upload .title h4 {display: none;}
+    .director_upload_page .mobile_back{display: none;}
+    
+    /*Css for User_home page*/
+    body.user_home .header_mobile { display: inline-block; width: 100%; padding: 10px 30px; background-color: #f5f5f5; border-bottom: 1px solid #b2b2b2;position: fixed; top: 0; z-index: 1;}
+    .user_home .user_menu li { margin: 0 !important;text-align: left; display: block; padding: 3px 0;}
+    .user_home .sub_menu { top: auto; position: relative; padding: 0 0; width: 300px;}
+    .user_home .sub_menu:before{left: 9%; right: auto;}
+    .user_home .sub_menu a { width: 100%; padding: 9px 0; font-size: 14px; margin: 5px 0;}
+    .user_home .sub_menu a.add_event{margin-left: 0;}
+    .user_home .user_profile_main .col-sm-2{display: none;}    
+    .user_home .col-sm-7 { width: 100%;padding: 0;}
+    .user_home .tab-content{border: 0px solid #e1e6ec; padding: 0 15px 20px;background-color: #fff;}
+    .user_home .user_content .nav-tabs>li>a:hover:before, .user_home .user_content .nav-tabs>li.active>a:before{display: none;}
+    .user_home .user_content .nav-tabs>li>a:hover:after, .user_home .user_content .nav-tabs>li.active>a:after{display: none;}
+    .user_home .user_content .nav-tabs>li>a.activity:before, .user_home .user_content .nav-tabs>li>a:before{display: none;}    
+    .user_home .nav-tabs>li{width: 50%; text-align: center;}
+    .user_home .nav-tabs>li>a{margin-right: 0;background-color: #e9e9e9;}
+    .user_home .wall_img > img { width: 100%;}
+    .user_home .team_more .add_player{display: none;}
+    .user_home .team_more h4{text-transform: capitalize;}
+    .user_home .title h4{border-bottom: 0;margin-bottom: 0;padding-bottom: 0;}
+    .user_home .team_more a { font-size: 20px; padding: 14px 50px; border-radius: 7px;}
+    .user_home .user_profile_main{background-color: #f5f5f5;}
+    .user_home .team_members li{width: 100%;margin-bottom: 0;}
+    .user_home .team_members .img_preview{display: inline-block; float: left;}
+    .user_home .designation { position: absolute; left: 150px; top: 50px;}
+    .user_home .member_name { position: absolute; left: 150px; top: 70px;}
+    .user_home .user_left { width: 100%; display: inline-block;}
+    .user_home .like_share { width: 100%; display: inline-block;padding-left: 60px; text-align: left; margin-top: 0;}
+    .user_home .like_share_main { width: 95%; display: table; margin: 0 auto;}
+    .user_home .desc_content span{text-decoration: none;}
+    #myModal21 .modal-dialog, #myModal25 .modal-dialog, .modal-dialog{width: 100% !important;}
+    .user_home .noti_content { background-color: #dedede;}
+    
+}
+@media(max-width:567px){
+    /***********************Header Section***********************/
+    .header_login, .header_social {width: 100%;margin: 0px;}
+    .header_top{text-align: center;}
+    .header_social{margin-top: 10px;}
+    .search_box{left: auto;top: auto;float: none;margin: 0 auto;position: relative;margin-top: 10px;width: 270px;}
+    .header_login ul li{    margin-left: 11px;margin-right: 11px;}
+    .header_login ul li:before{left: -14px;}
+    .header_login ul li:first-child{margin-right: 10px;}
+    .header_login ul li a{padding-left: 18px;}
+    
+    /***********************Footer Section***********************/
+    footer{padding: 10px 0px;}
+    .footer_social ul li a{width: 35px;height: 34px;}
+    .footer_social ul li a.fb {background-position: -2px -100px;}
+    .footer_social ul li a.tweet {background-position: -48px -100px;}
+    .footer_social ul li a.gplus {background-position: -94px -100px;}
+    .footer_social ul li a.linkdin {background-position: -140px -100px;}
+    .footer_social ul li a.insta {background-position: -186px -100px;}
+    
+    /***********************Home Slider Section***********************/
+    .slider_text {padding-top: 2%;}
+    .home_slider {background-size: cover;background-position: 50% 50%;}
+    .home_slider .flex-control-nav li{padding: 3px;}
+    
+    /***********************Home Report Card Section***********************/
+    .report_card a {font-size: 14px;padding: 3px 12px;}
+    span.slider_title, span.title {font-size: 22px;}
+    
+    /***********************Home How It Works Section***********************/
+    .player_image {width: 300px;}
+    .how_it_works span span.final {font-size: 32px;}
+    .how_it_works span {font-size: 22px;    line-height: normal;}
+    .how_it_works span.create {font-size: 30px;}
+    
+    /********Profile page css**********/
+    .radio {width: 32.6%;}
+    .player_accordion {width: 340px;}
+    .player_accordion .panel-title a, .player_accordion .panel-body .player_table {width: 290px;}
+    .popup_black_btn li:last-child{margin-top: 10px;}
+
+    /***********************Home Steps Section***********************/
+    .step_img {height: 80px;    margin-left: -18px;}
+    .steps_data img{top: -54px;}
+    .steps_data span.step_text {font-size: 28px;}
+    .steps_data span.number {font-size: 60px;}
+    .steps_info h2 {font-size: 20px;}
+    
+    /***********************User Home ***********************/
+    .team_members li { width: 50%;}
+    .user_profile_main .col-sm-5.pull-right { width: 100%;}
+    .user_profile_main .col-sm-7 { width: 100%;}
+    .title h4{font-size: 20px;}
+    .noti_title h5{font-size: 16px;}
+    .nav-tabs>li>a{font-size: 16px;}
+    .like_share { width: 100%; text-align: center;}
+    .like_share a{float: none;}
+    .user_left .msg_content { width: 71%;}
+    /***********************User Home End ***********************/
+    
+    /***********************Home Benefits Section***********************/
+    .benefit_desc .col-xs-5, .benefit_desc .col-xs-7{float: none;width: 100%;}
+    .benefit_text{text-align: center;}
+    .benefit_text span{margin: 0px;}
+    .benefit_data{text-align: center;}
+    .benefits_title span{display: none;}
+    .benefits_title div{position: relative;top: auto;}    
+    .add_players{padding: 20px 0 10px;}
+    .create_player{padding: 5px 70px 5px 30px; display: table; margin: 10px auto 0;}
+    .matches { margin: 0px 0 10px;}
+    .matches_img { width: 60px; height: 60px;margin: 10px auto 0;}
+    .machename{font-size: 14px;}
+    .add_players .col-sm-10 { width: 100%;}
+    .create_players .col-sm-10 { width: 100%;}
+    .create_players .radio label { width: 100%; margin: 0;font-size: 14px;}
+    .create_players .btns_bottom_text {text-align: center; padding: 0 15px;}
+    .create_players .btns_bottom_text p{margin: 0;}
+    
+    /***********************Home Sports Section***********************/
+    .col_5{width: 32%;}
+    .sports_text h4 {font-size: 18px;}
+    .sports_text {padding-top: 10px;padding-bottom: 0px;min-height: 80px;margin-bottom: 0px;}
+    
+    /***********************Home Testimonial Section***********************/
+    .testimonial_slider ul li span {padding-bottom: 0px;}
+    
+    .finally span {font-size: 40px;}
+    .finally h2{font-size: 20px;    margin-top: 0px;}
+    .finally a {font-size: 20px;}
+    .profile_section { padding: 25px 0;}
+    .play_overlay img{width: 70px;}
+    .slider_text { bottom: 80px;}
+    .home_slider .flexslider .slides img { min-height: 290px; max-height: 290px;}
+    .home_slider .flex-direction-nav .flex-next, .home_slider .flexslider:hover .flex-direction-nav .flex-next { right: 30px;}
+    .home_slider .flex-direction-nav .flex-prev, .home_slider .flexslider:hover .flex-direction-nav .flex-prev { left: 30px;}
+
+    /******************** New Menu ************************/
+    .user_menu li { margin: 0 4px;}
+
+    /***********************New Popup***********************/
+    .step_number { font-size: 14px;    width: 25px;    height: 25px;    line-height: 25px; }
+    .change_step li .step_number:after{ margin: 8px 20px; }
+    .event_options{ margin: 0 0 18px; font-size: 10px; }
+    
+    /*Director Page*/
+    .scoring_title {font-size: 14px;}
+    .scoring_table .scoring_body .scoring_col {font-size: 14px;}
+    .score_table_img {width: 40px;height: 40px;}
+    .other_admins {margin-top: 20px;}
+    a.bac_to_page {padding-left: 14px;}
+    .mobile_user_title h6{font-size: 14px;}
+    a.bac_to_page:before{    top: -2px;    width: 9px;}
+    
+    .scoring_result .scoring_table .scoring_head .scoring_title:nth-child(2), .scoring_result .scoring_table .scoring_body .scoring_col:nth-child(2) {width: 30%;text-align: center;    padding-left: 0px;padding-right: 0px;}
+    .player_title {width: 34%;}
+    .user_result h4 {width: 69%;font-size: 16px;}
+    .camp_grade{width: 19%;    text-align: center;}
+    .camp_grade label {margin: 0px 10px;display: block;}
+    .scoring_result .scoring_table .scoring_head .scoring_title:first-child, .scoring_result .scoring_table .scoring_body .scoring_col:first-child {padding-left: 10px;width: 24%;}
+    .score_description textarea{    font-size: 14px;    padding: 7px 10px 10px 9px;height: 60px;}
+    .mobile_user_title p {font-size: 12px;}
+    
+    /*Css for User_home page*/
+    .user_home .team_more a { font-size: 18px; padding: 10px 30px;}    
+    .user_home .serach_form { width: 70%; margin-right: 0; margin-top: 0px;}
+    .safe_menu_button{top: 20px;}
+    .user_profile_img { width: 12%;}
+    .user_home .serach_form input.txt_box{height: 50px;background-position: 20px 16px;font-size: 20px;}
+    .bottom_navigation ul li a{font-size: 16px;}
+    .user_home .team_members .img_preview{ height: 100px; width: 100px;}
+    .user_home .team_members .img_preview .img-circle{min-height: 90px; width: 90px;}
+    .user_home .designation{left: 120px; top: 40px;}
+    .user_home .member_name{left: 120px; top: 60px;}
+}
+@media(max-width:479px){
+    /***********************Header Section***********************/
+    .logo img{width: 170px;}
+    .header_navigation .navbar-toggle{top: -55px;}
+    
+    /********Login page css**********/
+    .home_logo img{width: 140px;}
+     .title_h2 h2,.player_p_section .modal-body h2{font-size: 18px;}
+    
+    /***********************Footer Section***********************/
+    .footer_social ul li{margin-right: 4px;}
+    
+    /********Profile page css start**********/
+    .checkbox_section{width: 100%;} 
+    .radio {width: 32.4%;}
+    .player_accordion .panel-title a{width: 205px;font-size: 16px;padding: 13px 8px 13px 50px;}
+    .player_accordion .panel-body .player_table{width: 100%;margin-top: 5px;}
+    .panel-title:before {width: 30px;height: 25px;}
+    .active .panel-title:after {left: 7px;top: 13px;}
+    .table{margin-bottom: 10px;}
+    .player_accordion {width: 100%;}
+    .player_accordion .th, .td {padding: 9px 3px;word-break: break-all;}
+    
+    /***********************Home Slider Section***********************/
+    .slider_text {padding-top: 1%;}
+    .home_slider .flexslider .slides > li span.slider_title {font-size: 20px;}
+    .home_slider .flexslider .slides > li span.title {font-size: 18px;}
+    .home_slider .flexslider .slides > li h2 {font-size: 16px;padding: 0px 22px;}
+    .home_slider .flexslider .slides > li a {font-size: 16px;margin-top: 8px;padding: 3px 14px;border-radius: 4px;margin-bottom: 3px;}
+    .home_slider .flex-direction-nav .flex-prev, .home_slider .flexslider:hover .flex-direction-nav .flex-prev {left: 10px;}
+    .home_slider .flex-direction-nav .flex-next, .home_slider .flexslider:hover .flex-direction-nav .flex-next {right: 10px;}
+    
+    /***********************Home How It Works Section***********************/
+    .player_image {width: 100%;}
+    
+    /***********************Home Steps Section***********************/
+    .step_img {height: 70px;    margin-left: 0px;}
+    .steps_data img{top: -42px;margin-left: -10px;}
+    .steps_data span.step_text {font-size: 24px;}
+    .steps_data span.number {font-size: 50px;    padding-left: 0px;}
+    
+    /***********************User Home ***********************/
+    .activity li p{width: 91%;}
+    .matches .col-sm-4 {width: 100%;}
+    /***********************User Home End ***********************/
+    
+    /***********************Home Testimonial Section***********************/
+    .testimonial_slider .flex-direction-nav .flex-prev, .testimonial_slider.flexslider:hover .flex-direction-nav .flex-prev {left: 10%;}
+    .testimonial_slider .flex-direction-nav .flex-next, .testimonial_slider.flexslider:hover .flex-direction-nav .flex-next {right: 10%;}
+    .blue_info_contain h4 { width: auto; margin: 0 auto 10px; display: table;padding: 7px;}
+    .member_info { margin-left: 0; margin-top: 0; text-align: center; width: 100%;}
+    .profile_section .col-md-4 { width: 100%;}
+    .big_chart_desc span{width: 100%;text-align: center;}
+    .big_chart_desc li{text-align: center;}
+    .play_overlay img{width: 50px;}
+    .home_slider .flexslider .slides img { min-height: 250px; max-height: 250px;}
+
+    /******************** New Menu ************************/
+    .sub_menu{top: 60px; right: -3px; width: 296px;}
+    .sub_menu a {    width: 130px;    padding: 10px 0;    font-size: 12px;    max-height: 38px;}
+    .sub_menu:before{ right: 18%; }
+
+    /***********************New Popup***********************/
+    .change_step li .step_number:after {  margin: 8px 10px;}
+    .change_step li span{ font-size: 10px; }
+    form.media_popup.add_new_events input.input_box, form.media_popup.add_new_events select, form.media_popup.add_new_events .textarea_box, form.media_popup.add_new_events input.input_box.full_box{ font-size: 12px; }
+    .add_admins_fullcontent span {  font-size: 14px;   line-height: normal;}
+    .add_admins_full h4 {    font-size: 16px;}
+    .add_admins_left .noti_content li span {  width: 18%;}
+    .add_admins_left .noti_content a{ margin-top: 0; }
+    #myModal23 .add_admins_left .noti_content.msg .time img {  margin-top: 3px;}
+    .gray_link a{ font-size: 13px; }
+
+    /*Director Page*/
+    .scoring_title {font-size: 12px;}
+    .scoring_table .scoring_body .scoring_col {font-size: 10px;}
+    .scoring_title{    padding: 10px 4px;}
+    .scoring_table .scoring_body .scoring_col{padding: 10px 4px;}
+    .score_table_img {width: 35px;height: 35px;}
+    .user_result .score_table_img {width: 40px;height: 40px;}
+    
+    
+    .player_title {width: 42%;margin-right: 5px;margin-left: 5px;}
+    .camp_grade label {margin: 0px 2px;    font-size: 14px;}
+    .camp_grade span {font-size: 12px;}
+    .camp_grade{width: 20%;}
+    .user_result h4 {width: 60%;font-size: 14px;}
+    span.score {width: 25px;height: 25px;padding: 5px 0px;}
+    .scoring_result .scoring_table .scoring_body .scoring_col:nth-child(2) a.score_edit {margin: 0px 2px;}
+    .scoring_result .scoring_table .scoring_head .scoring_title:first-child, .scoring_result .scoring_table .scoring_body .scoring_col:first-child {padding-left: 5px;width: 30%;}
+    .scoring_result .scoring_table .scoring_head .scoring_title:nth-child(4), .scoring_result .scoring_table .scoring_body .scoring_col:nth-child(4) {width: 12%;}
+    .scoring_result .scoring_table .scoring_head .scoring_title:nth-child(4), .scoring_result .scoring_table .scoring_body .scoring_col:nth-child(4) {width: 3%;}
+    
+    .mobile_logo img {width: 120px;margin-right: 10px;}
+    .mobile_logo {width: 51%;}
+    .mobile_user {width: 33%;}
+    .mobile_user_img {width: 40px;height: 38px;}
+    .mobile_user_title {margin-top: 1px;margin-left: 0px;}
+    
+    /*Css for User_home page*/
+    .user_home .sub_menu{width: 250px;}
+    .user_home .team_more a { font-size: 16px; padding: 8px 25px; min-height: 1px;margin-bottom: 10px;}
+    .user_profile_img { width: 50px;}
+    .user_home .serach_form { width: 65%; margin-top: 0;}
+    .safe_menu_button{ top: 15px;}
+    .user_home .serach_form input.txt_box { height: 40px; background-position: 10px 10px; font-size: 18px; padding: 5px 20px 10px 40px;}
+    .bottom_navigation ul li a { font-size: 12px;}
+}
+@media (max-width: 420px){
+    /********Profile page css**********/
+    .radio {width: 49%;}
+    
+    /***********************User Home ***********************/
+    .team_more a{padding: 10px 40px;margin: 5px 0;}
+    .team_members li { width: 100%;}
+    .team_members li{margin: 0 0 5px 0;}
+    .team_section { margin-bottom: 0;}
+    .nav-tabs>li>a { font-size: 11px; padding: 5px; margin: 0;}
+    .title h4 { font-size: 18px;}
+    .wall_img iframe { min-height: 150px;}
+    .add_players { top: 0; position: relative;    margin-bottom: 10px;}
+    .btns_bottom_text{padding: 0 15px;}
+    .create_players { top: 0;  position: relative;  margin-bottom: 10px;}
+    /***********************User Home End ***********************/
+    .big_chart_desc li, .big_chart_desc li:nth-child(odd) { margin-right: 0; width: 100%;}
+    .single_graph_small { width: 165px; display: table; margin: 0 auto 10px;}
+    
+    /*Css for User_home page*/
+    .user_home .nav-tabs>li>a { font-size: 14px; padding: 8px 0;}   
+}
+@media(max-width:375px){
+     /********Profile page css**********/
+    .timline_img img{position: relative;}
+    .timline_img{display: block;text-align: center;margin: 0 auto;}
+    .timline_img iframe{height: 85px;margin-bottom: 5px;}
+    .timline_img_name {margin: 0 auto;text-align: center;display: block;}
+    .timeline_section p{text-align: center;}
+    .edit_icon{position: relative;display: block;margin:0 auto 6px;right: inherit;top: inherit;}
+    .blue_link_member a {width: 100%;}
+    .blue_info_contain h4 {margin-bottom: 10px;width: 100%;padding: 10px 0;}
+    .member_info {margin-left: 0;}
+    .blue_link_member a.right_radius{border-radius: 0;margin-bottom: 10px;}
+    .blue_link_member a.left_radius{border-radius: 0;}
+    .graph img { width: 60%;}
+    .home_slider  .flexslider .slides img { min-height: 200px; max-height: 200px;}
+    .slider_text { bottom: 50px;}
+    .home_slider .flex-control-nav { bottom: 0px;}
+    
+    /***********************Home Sports Section***********************/
+    .col_5 {width: 48%;}
+    
+    /*Css for User_home page*/
+    .user_home .serach_form { width: 60%;}
+    .user_home .team_members .img_preview{margin: 5px 0;}
+    .user_home .designation { left: 110px; top: 35px;}
+    .user_home .member_name { left: 110px;  top: 55px;}
+    .bottom_navigation ul li a { font-size: 10px;}
+}

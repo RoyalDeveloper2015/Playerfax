@@ -1,0 +1,509 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Playerfex</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+        <link rel="icon" type="image/png" href="favicon.png" sizes="32x32" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+        <link href="css/bootstrap-datepicker.css" rel="stylesheet" type="text/css"/>
+        <link href="css/flexslider.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="css/responsive.css" type="text/css"/>
+    </head>
+    <body>
+        <header class="after_login">
+            <div class="header_top">
+                <div class="container">
+                    <div class="header_login">
+                        <ul>
+                            <li><a href="javascript:void(0);" class="search"></a></li>
+                            <li><a href="#" class="register">Michael Godbee</a></li>
+                            <li><a href="login.html" class="login">Logout</a></li>
+                        </ul>
+                        <div class="search_box">
+                            <form>
+                                <input type="text" class="input_box" placeholder="Search"> 
+                                <input type="submit" class="serch_img" value="">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="header_social">
+                        <ul>
+                            <li><a href="#" class="fb"></a></li>
+                            <li><a href="#" class="tweet"></a></li>
+                            <li><a href="#" class="gplus"></a></li>
+                            <li><a href="#" class="linkdin"></a></li>
+                            <li><a href="#" class="ytube"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header_bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="logo">
+                                <a href="index.html"><img src="images/playerlogo_img.png" alt="img" class="img-responsive" draggable="false"/></a>
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="user_menu">
+                                <ul>
+                                    <li><a href="#" class="my_profile">My Profile</a></li>
+                                    <li><a href="#" class="my_player">My Players</a></li>
+                                    <li><a href="#" class="add_profile">Add Player</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="user_profile_main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="img_preview">
+                                <div class="img-circle">
+                                <img src="images/user_img.png" alt="img" />
+                            </div>
+                        </div>
+                        <div class="user_name_upload">
+                            <h6>Michael Godbee</h6>
+                            <label><input type="file" /> Edit Picture</label>
+                            <a href="#" class="upd_profile">Update Profile</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-10">
+                        <div class="title">
+                            <h4>Yours Top Players By Recent Activity </h4>
+                        </div>
+                        <div class="team_section">
+                            <div class="team_members">
+                                <ul>
+                                    <li>
+                                        <div class="designation">
+                                            <p>I’m Coaching</p>
+                                        </div>
+                                        <div class="img_preview">
+                                            <div class="img-circle">
+                                                <img src="images/member_1.png" alt="img" />
+                                            </div>
+                                        </div>
+                                        <div class="member_name">
+                                            <a href="profile.html">Kaden Blankenship</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="designation">
+                                            <p>My Kid!</p>
+                                        </div>
+                                        <div class="img_preview">
+                                            <div class="img-circle">
+                                                <img src="images/member_2.png" alt="img" />
+                                            </div>
+                                        </div>
+                                        <div class="member_name">
+                                            <a href="#">Cameron Godbee</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="designation">
+                                            <p>My Team</p>
+                                        </div>
+                                        <div class="img_preview">
+                                            <div class="img-circle">
+                                                <img src="images/member_3.png" alt="img" />
+                                            </div>
+                                        </div>
+                                        <div class="member_name">
+                                            <a href="#">karen</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="designation">
+                                            <p>Attendee</p>
+                                        </div>
+                                        <div class="img_preview">
+                                            <div class="img-circle">
+                                                <img src="images/member_4.png" alt="img" />
+                                            </div>
+                                        </div>
+                                        <div class="member_name">
+                                            <a href="#">William</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="team_more">
+                                <h4>Players I am Following</h4>
+                                <a href="#">see more</a>
+                                <a href="javascript:void(0);" class="add_player">Add Player</a>
+                            </div>
+                            <div class="add_players" id="add_player_search"style="display: none;">
+                                <div class="col-sm-offset-1 col-sm-10">
+                                    <form>
+                                        <input type="text" placeholder="Search by Name" required="" class="input_box">
+                                        <input type="text" placeholder="Search by Email" required="" class="input_box">
+                                        <input type="text" placeholder="Search by School / City" required="" class="input_box">
+                                        <div class="blue_btn search_btn">
+                                            <input type="submit" value="Search" class="blue_bg_btn">
+                                        </div>
+                                    </form>
+                                    <div class="matches">
+                                        <div class="title">
+                                            <h4>Possible Matches</h4>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <div class="matches_img">                                                    
+                                                    <img src="images/matche_img.png" alt="image" class="img-circle">
+                                                    <img src="images/matche_plus.png" alt="image" class="plus">
+                                                </div>
+                                                <div class="machename">
+                                                    <p>Kaden Blankenship</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="matches_img">                                                    
+                                                    <img src="images/matche_img.png" alt="image" class="img-circle">
+                                                    <img src="images/matche_plus.png" alt="image" class="plus">
+                                                </div>
+                                                <div class="machename">
+                                                    <p>Kaden Blankenship</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="matches_img">                                                    
+                                                    <img src="images/matche_img.png" alt="image" class="img-circle">
+                                                    <img src="images/matche_plus.png" alt="image" class="plus">
+                                                </div>
+                                                <div class="machename">
+                                                    <p>Kaden Blankenship</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btns_bottom_text">
+                                    <span>My Player Is Not Listed Above</span>
+                                    <a href="javascript:void(0);" class="create_player">Lets Create</a>
+                                    <p>*You must be the player or the players parent or guardian to create a <span>PlayerFax Player Profile</span></p>
+                                </div>
+                            </div>
+                            <div class="create_players" id="create_player" style="display: none;">
+                                <div class="col-sm-offset-1 col-sm-10">
+                                    <div class="row">
+                                        <form>
+                                            <div class="col-sm-6">
+                                                <input type="text" placeholder="First Name" required="" class="input_box">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="text" placeholder="Last Name" required="" class="input_box">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="text" placeholder="Email" required="" class="input_box">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="text" placeholder="DOB" required="" class="input_box">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="text" placeholder="School" required="" class="input_box">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="text" placeholder="City" required="" class="input_box">
+                                            </div>
+                                            <div class="radio">
+                                                <input type="radio" name="radio1" id="radio1"><label for="radio1"> I am the Player</label>
+                                                <input type="radio" name="radio1" id="radio2"><label for="radio2">I am the Parent or Legal Guadian</label>
+                                            </div>
+                                            <div class="blue_btn create_btn">
+                                                <input type="submit" value="Add Player" class="blue_bg_btn">
+                                            </div>
+                                            <div class="btns_bottom_text">
+                                                <p>
+                                                    *You must be the player or the players parent or guardian to create a <span>PlayerFax Player Profile</span>
+                                                    You will be the owner of this <span>PlayerFax Player Profile.</span> You will be able to share admin rights
+                                                    with other users, only admins will be able to add stats & sports to a <span>PlayerFax Player Profile.</span>
+                                                </p>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-5 pull-right">
+                                <div class="notification_main">
+                                    <div class="noti_title">
+                                        <h5>Alerts & Notices</h5>
+                                    </div>
+                                    <div class="noti_content">
+                                        <ul>
+                                            <li>
+                                                <a href="#">Kaden Blankenship like a link you shared.</a>
+                                                <span>3 hours ago</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">Kaden Blankenship like a link you shared.</a>
+                                                <span>3 hours ago</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">Kaden Blankenship like a link you shared.</a>
+                                                <span>3 hours ago</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="message_main">
+                                    <div class="noti_title msg">
+                                        <h5>Recent Messages</h5>
+                                    </div>
+                                    <div class="noti_content msg">
+                                        <ul>
+                                            <li>
+                                                <img src="images/member_img.png" alt="image" class="img-circle" />
+                                                <div class="msg_content">
+                                                    <h6>Kaden Blankenship</h6>
+                                                    <p><span>you:</span> hi</p>
+                                                </div>
+                                                <span class="time">4:24pm</span>
+                                            </li>
+                                            <li>
+                                                <img src="images/member_img.png" alt="image" class="img-circle" />
+                                                <div class="msg_content">
+                                                    <h6>Kaden Blankenship</h6>
+                                                    <p><span>you:</span> hi</p>
+                                                </div>
+                                                <span class="time">4:24pm</span>
+                                            </li>
+                                            <li>
+                                                <img src="images/member_img.png" alt="image" class="img-circle" />
+                                                <div class="msg_content">
+                                                    <h6>Kaden Blankenship</h6>
+                                                    <p><span>you:</span> hi</p>
+                                                </div>
+                                                <span class="time">4:24pm</span>
+                                            </li>
+                                            <li>
+                                                <img src="images/member_img.png" alt="image" class="img-circle" />
+                                                <div class="msg_content">
+                                                    <h6>Kaden Blankenship</h6>
+                                                    <p><span>you:</span> hi</p>
+                                                </div>
+                                                <span class="time">4:24pm</span>
+                                            </li>
+                                            <li>
+                                                <img src="images/member_img.png" alt="image" class="img-circle" />
+                                                <div class="msg_content">
+                                                    <h6>Kaden Blankenship</h6>
+                                                    <p><span>you:</span> hi</p>
+                                                </div>
+                                                <span class="time">4:24pm</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="user_content">
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a href="#tab1" data-toggle="tab" aria-expanded="true">Michael’s Wall</a></li>
+                                        <li><a href="#tab2" data-toggle="tab" aria-expanded="false" class="activity">Activity Log</a></li>                                        
+                                    </ul>
+                                </div>
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="tab1">
+                                        <div class="single_wall">
+                                            <div class="wall_title">
+                                                <h5>Title will be here</h5>
+                                            </div>
+                                            <div class="wall_img">
+                                                <img src="images/image1.png" alt="image" />
+                                            </div>
+                                            <div class="wall_desc_main">
+                                                <div class="like_share_main">
+                                                    <div class="user_left">
+                                                        <img src="images/member_img.png" alt="image" class="img-circle">
+                                                        <div class="msg_content">
+                                                            <h6>Kaden Blankenship</h6>
+                                                            <p><span>12:25am </span> 17-Feb-17</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="like_share">
+                                                        <a href="#">like</a>
+                                                        <a href="#">share</a>
+                                                    </div>
+                                                </div>
+                                                <div class="desc_content">
+                                                    <span>Description</span>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet et libero nec vestibulum. Mogestas congue nisl
+                                                        , a convallis turpis semper id. Nam justo urna, fermentum non ligula eu, pharetra bibendum enim. Cras ut mollis dolor,
+                                                        et dapibus eros.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="single_wall">
+                                            <div class="wall_title">
+                                                <h5>Title will be here</h5>
+                                            </div>
+                                            <div class="wall_img">
+                                                <iframe src="https://www.youtube.com/embed/BGMDkrJq3tE" allowfullscreen=""></iframe>
+                                                <div class="play_overlay">
+                                                    <img src="images/play_icon.png" alt="play_icon" draggable="false">
+                                                </div>
+                                            </div>
+                                            <div class="wall_desc_main">
+                                                <div class="like_share_main">
+                                                    <div class="user_left">
+                                                        <img src="images/member_img.png" alt="image" class="img-circle">
+                                                        <div class="msg_content">
+                                                            <h6>Kaden Blankenship</h6>
+                                                            <p><span>12:25am </span> 17-Feb-17</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="like_share">
+                                                        <a href="#">like</a>
+                                                        <a href="#">share</a>
+                                                    </div>
+                                                </div>
+                                                <div class="desc_content">
+                                                    <span>Description</span>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet et libero nec vestibulum. Mogestas congue nisl
+                                                        , a convallis turpis semper id. Nam justo urna, fermentum non ligula eu, pharetra bibendum enim. Cras ut mollis dolor,
+                                                        et dapibus eros.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="single_wall">
+                                            <div class="wall_title">
+                                                <h5>Title will be here</h5>
+                                            </div>
+                                            <div class="wall_img">
+                                                <img src="images/image3.png" alt="image" />
+                                            </div>
+                                            <div class="wall_desc_main">
+                                                <div class="like_share_main">
+                                                    <div class="user_left">
+                                                        <img src="images/member_img.png" alt="image" class="img-circle">
+                                                        <div class="msg_content">
+                                                            <h6>Kaden Blankenship</h6>
+                                                            <p><span>12:25am </span> 17-Feb-17</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="like_share">
+                                                        <a href="#">like</a>
+                                                        <a href="#">share</a>
+                                                    </div>
+                                                </div>
+                                                <div class="desc_content">
+                                                    <span>Description</span>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet et libero nec vestibulum. Mogestas congue nisl
+                                                        , a convallis turpis semper id. Nam justo urna, fermentum non ligula eu, pharetra bibendum enim. Cras ut mollis dolor,
+                                                        et dapibus eros.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="single_wall">
+                                            <div class="wall_title">
+                                                <h5>Title will be here</h5>
+                                            </div>
+                                            <div class="wall_img">
+                                                <img src="images/image4.png" alt="image" />
+                                            </div>
+                                            <div class="wall_desc_main">
+                                                <div class="like_share_main">
+                                                    <div class="user_left">
+                                                        <img src="images/member_img.png" alt="image" class="img-circle">
+                                                        <div class="msg_content">
+                                                            <h6>Kaden Blankenship</h6>
+                                                            <p><span>12:25am </span> 17-Feb-17</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="like_share">
+                                                        <a href="#">like</a>
+                                                        <a href="#">share</a>
+                                                    </div>
+                                                </div>
+                                                <div class="desc_content">
+                                                    <span>Description</span>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet et libero nec vestibulum. Mogestas congue nisl
+                                                        , a convallis turpis semper id. Nam justo urna, fermentum non ligula eu, pharetra bibendum enim. Cras ut mollis dolor,
+                                                        et dapibus eros.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane " id="tab2">
+                                        <div class="single_wall activity">
+                                            <ul>
+                                                <li>
+                                                    <p>Kaden Blankenship<span> became</span></p>
+                                                    <p><span>friends with</span> Jhon White.</p>
+                                                    <a href="#" class="edit_activity"></a>
+                                                </li>
+                                                <li>
+                                                    <p>Kaden Blankenship<span> became</span></p>
+                                                    <p><span>friends with</span> Jhon White.</p>
+                                                    <a href="#" class="edit_activity"></a>
+                                                </li>
+                                                <li>
+                                                    <p>Kaden Blankenship<span> became</span></p>
+                                                    <p><span>friends with</span> Jhon White.</p>
+                                                    <a href="#" class="edit_activity"></a>
+                                                </li>
+                                                <li>
+                                                    <p>Kaden Blankenship<span> became</span></p>
+                                                    <p><span>friends with</span> Jhon White.</p>
+                                                    <a href="#" class="edit_activity"></a>
+                                                </li>
+                                                <li>
+                                                    <p>Kaden Blankenship<span> became</span></p>
+                                                    <p><span>friends with</span> Jhon White.</p>
+                                                    <a href="#" class="edit_activity"></a>
+                                                </li>
+                                                <li>
+                                                    <p>Kaden Blankenship<span> became</span></p>
+                                                    <p><span>friends with</span> Jhon White.</p>
+                                                    <a href="#" class="edit_activity"></a>
+                                                </li>
+                                                <li>
+                                                    <p>Kaden Blankenship<span> became</span></p>
+                                                    <p><span>friends with</span> Jhon White.</p>
+                                                    <a href="#" class="edit_activity"></a>
+                                                </li>
+                                                <li>
+                                                    <p>Kaden Blankenship<span> became</span></p>
+                                                    <p><span>friends with</span> Jhon White.</p>
+                                                    <a href="#" class="edit_activity"></a>
+                                                </li>
+                                            </ul>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+        <script src="js/bootstrap-datepicker.js" type="text/javascript"></script>
+        <script src="js/bootstrap-tabcollapse.js" type="text/javascript"></script>
+        <script src="js/SmoothScroll.js" type="text/javascript"></script>
+        <script src="js/custom.js" type="text/javascript"></script>
+    </body>
+</html>

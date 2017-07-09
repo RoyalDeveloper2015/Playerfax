@@ -1,0 +1,1979 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Playerfex</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+        <link rel="icon" type="image/png" href="favicon.png" sizes="32x32" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+        <link href="css/bootstrap-datepicker.css" rel="stylesheet" type="text/css"/>
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
+        <link href="css/datetimepicker.css" rel="stylesheet" type="text/css"/>
+        <link href="css/select2.css" rel="stylesheet" type="text/css"/>
+        <link href="css/flexslider.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="css/responsive.css" type="text/css"/>
+    </head>
+    <body class="user_home">
+        <header class="after_login header_desk">
+            <div class="header_top">
+                <div class="container">
+                    <div class="header_login">
+                        <ul>
+                            <li><a href="javascript:void(0);" class="search"></a></li>
+                            <li><a href="#" class="register">Michael Godbee</a></li>
+                            <li><a href="login.html" class="login">Logout</a></li>
+                        </ul>
+                        <div class="search_box">
+                            <form>
+                                <input type="text" class="input_box" placeholder="Search"> 
+                                <input type="submit" class="serch_img" value="">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="header_social">
+                        <ul>
+                            <li><a href="#" class="fb"></a></li>
+                            <li><a href="#" class="tweet"></a></li>
+                            <li><a href="#" class="gplus"></a></li>
+                            <li><a href="#" class="linkdin"></a></li>
+                            <li><a href="#" class="ytube"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header_bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="logo">
+                                <a href="index.html"><img src="images/playerlogo_img.png" alt="img" class="img-responsive" draggable="false"/></a>
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="user_menu">
+                                <ul>
+                                    <li><a href="#" class="my_profile">My Profile</a></li>
+                                    <li><a href="#" class="my_player">My Players</a></li>
+                                    <li><a href="#" class="add_profile">Add Player</a></li>
+                                    <!-- Add new button -->
+                                    <li><a href="#" class="events">Events</a></li>
+                                    <!-- End new Button -->
+                                </ul>
+                                <!-- Add new sub menu button -->
+                                <div class="sub_menu">
+                                    <div class="sub_menu_box">
+                                        <a href="#" class="eve_event" data-toggle="modal" data-target="#myModal25">Manage Events</a>
+                                        <a href="#" class="add_event" data-toggle="modal" data-target="#myModal21">Add event</a>
+                                    </div>
+                                </div>
+                                <!-- End new sub menu button -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="header_mobile">
+            <div class="safe_menu_button">
+                <span></span>
+            </div>
+            <div class="col-sm-9"> 
+                <div class="user_profile_img">
+                    <img src="images/user_img1.png" alt="user_img" class="img-circle" />
+                </div>
+                <div class="serach_form">
+                    <input type="text" class="txt_box" placeholder="player id #, or name search" />
+                 </div>
+                <div class="user_menu">
+                    <ul>
+                        <li><a href="#" class="my_profile">My Profile</a></li>
+                        <li><a href="#" class="my_player">My Players</a></li>
+                        <li><a href="#" class="add_profile">Add Player</a></li>
+                        <!-- Add new button -->
+                        <li><a href="#" class="events">Events</a></li>
+                        <!-- End new Button -->
+                    </ul>
+                    <!-- Add new sub menu button -->
+                    <div class="sub_menu">
+                        <div class="sub_menu_box">
+                            <a href="#" class="eve_event" data-toggle="modal" data-target="#myModal25">Manage Events</a>
+                            <a href="#" class="add_event" data-toggle="modal" data-target="#myModal21">Add event</a>
+                        </div>
+                    </div>
+                    <!-- End new sub menu button -->
+                </div>
+            </div>
+        </div>
+        <section class="user_profile_main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="img_preview">
+                                <div class="img-circle">
+                                <img src="images/user_img.png" alt="img" />
+                            </div>
+                        </div>
+                        <div class="user_name_upload">
+                            <h6>Michael Godbee</h6>
+                            <label><input type="file" /> Edit Picture</label>
+                            <a href="#" class="upd_profile">Update Profile</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-10">
+                        <div class="title">
+                            <h4>Yours Top Players By Recent Activity </h4>
+                        </div>
+                        <div class="team_section">
+                            <div class="team_members">
+                                <ul>
+                                    <li>
+                                        <div class="designation">
+                                            <p>I’m Coaching</p>
+                                        </div>
+                                        <div class="img_preview">
+                                            <div class="img-circle">
+                                                <img src="images/member_1.png" alt="img" />
+                                            </div>
+                                        </div>
+                                        <div class="member_name">
+                                            <a href="profile.html">Kaden Blankenship</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="designation">
+                                            <p>My Kid!</p>
+                                        </div>
+                                        <div class="img_preview">
+                                            <div class="img-circle">
+                                                <img src="images/member_2.png" alt="img" />
+                                            </div>
+                                        </div>
+                                        <div class="member_name">
+                                            <a href="#">Cameron Godbee</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="designation">
+                                            <p>My Team</p>
+                                        </div>
+                                        <div class="img_preview">
+                                            <div class="img-circle">
+                                                <img src="images/member_3.png" alt="img" />
+                                            </div>
+                                        </div>
+                                        <div class="member_name">
+                                            <a href="#">karen</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="designation">
+                                            <p>Attendee</p>
+                                        </div>
+                                        <div class="img_preview">
+                                            <div class="img-circle">
+                                                <img src="images/member_4.png" alt="img" />
+                                            </div>
+                                        </div>
+                                        <div class="member_name">
+                                            <a href="#">William</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="team_more">
+                                <h4>Players I am Following</h4>
+                                <a href="#">see more</a>
+                                <a href="javascript:void(0);" class="add_player">Add Player</a>
+                            </div>
+                            <div class="add_players" id="add_player_search"style="display: none;">
+                                <div class="col-sm-offset-1 col-sm-10">
+                                    <form>
+                                        <input type="text" placeholder="Search by Name" required="" class="input_box">
+                                        <input type="text" placeholder="Search by Email" required="" class="input_box">
+                                        <input type="text" placeholder="Search by School / City" required="" class="input_box">
+                                        <div class="blue_btn search_btn">
+                                            <input type="submit" value="Search" class="blue_bg_btn">
+                                        </div>
+                                    </form>
+                                    <div class="matches">
+                                        <div class="title">
+                                            <h4>Possible Matches</h4>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <div class="matches_img">                                                    
+                                                    <img src="images/matche_img.png" alt="image" class="img-circle">
+                                                    <img src="images/matche_plus.png" alt="image" class="plus">
+                                                </div>
+                                                <div class="machename">
+                                                    <p>Kaden Blankenship</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="matches_img">                                                    
+                                                    <img src="images/matche_img.png" alt="image" class="img-circle">
+                                                    <img src="images/matche_plus.png" alt="image" class="plus">
+                                                </div>
+                                                <div class="machename">
+                                                    <p>Kaden Blankenship</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="matches_img">                                                    
+                                                    <img src="images/matche_img.png" alt="image" class="img-circle">
+                                                    <img src="images/matche_plus.png" alt="image" class="plus">
+                                                </div>
+                                                <div class="machename">
+                                                    <p>Kaden Blankenship</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btns_bottom_text">
+                                    <span>My Player Is Not Listed Above</span>
+                                    <a href="javascript:void(0);" class="create_player">Lets Create</a>
+                                    <p>*You must be the player or the players parent or guardian to create a <span>PlayerFax Player Profile</span></p>
+                                </div>
+                            </div>
+                            <div class="overlay" id="add_create_player" style="display: none;">
+                                <div class="close_pop">
+                                    <i class="fa fa-times" aria-hidden="true"></i>
+                                </div>
+                                <div class="add_players mobile_view" id="add_player_search_mobile" style="//display: none;">
+                                    <div class="col-sm-offset-1 col-sm-10">
+                                        <form>
+                                            <input type="text" placeholder="Search by Name" required="" class="input_box">
+                                            <input type="text" placeholder="Search by Email" required="" class="input_box">
+                                            <input type="text" placeholder="Search by School / City" required="" class="input_box">
+                                            <div class="blue_btn search_btn">
+                                                <input type="submit" value="Search" class="blue_bg_btn">
+                                            </div>
+                                        </form>
+                                        <div class="matches">
+                                            <div class="title">
+                                                <h4>Possible Matches</h4>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-4">
+                                                    <div class="matches_img">                                                    
+                                                        <img src="images/matche_img.png" alt="image" class="img-circle">
+                                                        <img src="images/matche_plus.png" alt="image" class="plus">
+                                                    </div>
+                                                    <div class="machename">
+                                                        <p>Kaden Blankenship</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="matches_img">                                                    
+                                                        <img src="images/matche_img.png" alt="image" class="img-circle">
+                                                        <img src="images/matche_plus.png" alt="image" class="plus">
+                                                    </div>
+                                                    <div class="machename">
+                                                        <p>Kaden Blankenship</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="matches_img">                                                    
+                                                        <img src="images/matche_img.png" alt="image" class="img-circle">
+                                                        <img src="images/matche_plus.png" alt="image" class="plus">
+                                                    </div>
+                                                    <div class="machename">
+                                                        <p>Kaden Blankenship</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btns_bottom_text">
+                                        <span>My Player Is Not Listed Above</span>
+                                        <a href="javascript:void(0);" class="create_player">Lets Create</a>
+                                        <p>*You must be the player or the players parent or guardian to create a <span>PlayerFax Player Profile</span></p>
+                                    </div>
+                                </div>
+                                <div class="create_players mobile_view" id="create_player" style="display: none;">
+                                <div class="col-sm-offset-1 col-sm-10">
+                                    <div class="row">
+                                        <form>
+                                            <div class="col-sm-6">
+                                                <input type="text" placeholder="First Name" required="" class="input_box">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="text" placeholder="Last Name" required="" class="input_box">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="text" placeholder="Email" required="" class="input_box">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="text" placeholder="DOB" required="" class="input_box">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="text" placeholder="School" required="" class="input_box">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="text" placeholder="City" required="" class="input_box">
+                                            </div>
+                                            <div class="radio">
+                                                <input type="radio" name="radio1" id="radio1"><label for="radio1"> I am the Player</label>
+                                                <input type="radio" name="radio1" id="radio2"><label for="radio2">I am the Parent or Legal Guadian</label>
+                                            </div>
+                                            <div class="blue_btn create_btn">
+                                                <input type="submit" value="Add Player" class="blue_bg_btn">
+                                            </div>
+                                            <div class="btns_bottom_text">
+                                                <p>
+                                                    *You must be the player or the players parent or guardian to create a <span>PlayerFax Player Profile</span>
+                                                    You will be the owner of this <span>PlayerFax Player Profile.</span> You will be able to share admin rights
+                                                    with other users, only admins will be able to add stats & sports to a <span>PlayerFax Player Profile.</span>
+                                                </p>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="create_players" id="create_player" style="display: none;">
+                                <div class="col-sm-offset-1 col-sm-10">
+                                    <div class="row">
+                                        <form>
+                                            <div class="col-sm-6">
+                                                <input type="text" placeholder="First Name" required="" class="input_box">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="text" placeholder="Last Name" required="" class="input_box">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="text" placeholder="Email" required="" class="input_box">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="text" placeholder="DOB" required="" class="input_box">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="text" placeholder="School" required="" class="input_box">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="text" placeholder="City" required="" class="input_box">
+                                            </div>
+                                            <div class="radio">
+                                                <input type="radio" name="radio1" id="radio1"><label for="radio1"> I am the Player</label>
+                                                <input type="radio" name="radio1" id="radio2"><label for="radio2">I am the Parent or Legal Guadian</label>
+                                            </div>
+                                            <div class="blue_btn create_btn">
+                                                <input type="submit" value="Add Player" class="blue_bg_btn">
+                                            </div>
+                                            <div class="btns_bottom_text">
+                                                <p>
+                                                    *You must be the player or the players parent or guardian to create a <span>PlayerFax Player Profile</span>
+                                                    You will be the owner of this <span>PlayerFax Player Profile.</span> You will be able to share admin rights
+                                                    with other users, only admins will be able to add stats & sports to a <span>PlayerFax Player Profile.</span>
+                                                </p>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-5 pull-right">
+                                <div class="notification_main" id="alerts">
+                                    <div class="noti_title">
+                                        <h5>Alerts & Notices</h5>
+                                    </div>
+                                    <div class="noti_content">
+                                        <ul>
+                                            <li>
+                                                <a href="#">Kaden Blankenship like a link you shared.</a>
+                                                <span>3 hours ago</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">Kaden Blankenship like a link you shared.</a>
+                                                <span>3 hours ago</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">Kaden Blankenship like a link you shared.</a>
+                                                <span>3 hours ago</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="message_main" id="messages">
+                                    <div class="noti_title msg">
+                                        <h5>Recent Messages</h5>
+                                    </div>
+                                    <div class="noti_content msg">
+                                        <ul>
+                                            <li>
+                                                <img src="images/member_img.png" alt="image" class="img-circle" />
+                                                <div class="msg_content">
+                                                    <h6>Kaden Blankenship</h6>
+                                                    <p><span>you:</span> hi</p>
+                                                </div>
+                                                <span class="time">4:24pm</span>
+                                            </li>
+                                            <li>
+                                                <img src="images/member_img.png" alt="image" class="img-circle" />
+                                                <div class="msg_content">
+                                                    <h6>Kaden Blankenship</h6>
+                                                    <p><span>you:</span> hi</p>
+                                                </div>
+                                                <span class="time">4:24pm</span>
+                                            </li>
+                                            <li>
+                                                <img src="images/member_img.png" alt="image" class="img-circle" />
+                                                <div class="msg_content">
+                                                    <h6>Kaden Blankenship</h6>
+                                                    <p><span>you:</span> hi</p>
+                                                </div>
+                                                <span class="time">4:24pm</span>
+                                            </li>
+                                            <li>
+                                                <img src="images/member_img.png" alt="image" class="img-circle" />
+                                                <div class="msg_content">
+                                                    <h6>Kaden Blankenship</h6>
+                                                    <p><span>you:</span> hi</p>
+                                                </div>
+                                                <span class="time">4:24pm</span>
+                                            </li>
+                                            <li>
+                                                <img src="images/member_img.png" alt="image" class="img-circle" />
+                                                <div class="msg_content">
+                                                    <h6>Kaden Blankenship</h6>
+                                                    <p><span>you:</span> hi</p>
+                                                </div>
+                                                <span class="time">4:24pm</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="user_content">
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a href="#tab1" data-toggle="tab" aria-expanded="true">Michael’s Wall</a></li>
+                                        <li><a href="#tab2" data-toggle="tab" aria-expanded="false" class="activity">Activity Log</a></li>                                        
+                                    </ul>
+                                </div>
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="tab1">
+                                        <div class="single_wall">
+                                            <div class="wall_title">
+                                                <h5>Title will be here</h5>
+                                            </div>
+                                            <div class="wall_img">
+                                                <img src="images/image1.png" alt="image" class="img-responsive" />
+                                            </div>
+                                            <div class="wall_desc_main">
+                                                <div class="like_share_main">
+                                                    <div class="user_left">
+                                                        <img src="images/member_img.png" alt="image" class="img-circle">
+                                                        <div class="msg_content">
+                                                            <h6>Kaden Blankenship</h6>
+                                                            <p><span>12:25am </span> 17-Feb-17</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="like_share">
+                                                        <a href="#">like</a>
+                                                        <a href="#">share</a>
+                                                    </div>
+                                                </div>
+                                                <div class="desc_content">
+                                                    <span>Description</span>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet et libero nec vestibulum. Mogestas congue nisl
+                                                        , a convallis turpis semper id. Nam justo urna, fermentum non ligula eu, pharetra bibendum enim. Cras ut mollis dolor,
+                                                        et dapibus eros.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="single_wall">
+                                            <div class="wall_title">
+                                                <h5>Title will be here</h5>
+                                            </div>
+                                            <div class="wall_img">
+                                                <iframe src="https://www.youtube.com/embed/BGMDkrJq3tE" allowfullscreen=""></iframe>
+                                                <div class="play_overlay">
+                                                    <img src="images/play_icon.png" alt="play_icon" draggable="false" class="img-responsive">
+                                                </div>
+                                            </div>
+                                            <div class="wall_desc_main">
+                                                <div class="like_share_main">
+                                                    <div class="user_left">
+                                                        <img src="images/member_img.png" alt="image" class="img-circle">
+                                                        <div class="msg_content">
+                                                            <h6>Kaden Blankenship</h6>
+                                                            <p><span>12:25am </span> 17-Feb-17</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="like_share">
+                                                        <a href="#">like</a>
+                                                        <a href="#">share</a>
+                                                    </div>
+                                                </div>
+                                                <div class="desc_content">
+                                                    <span>Description</span>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet et libero nec vestibulum. Mogestas congue nisl
+                                                        , a convallis turpis semper id. Nam justo urna, fermentum non ligula eu, pharetra bibendum enim. Cras ut mollis dolor,
+                                                        et dapibus eros.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="single_wall">
+                                            <div class="wall_title">
+                                                <h5>Title will be here</h5>
+                                            </div>
+                                            <div class="wall_img">
+                                                <img src="images/image3.png" alt="image" class="img-responsive"/>
+                                            </div>
+                                            <div class="wall_desc_main">
+                                                <div class="like_share_main">
+                                                    <div class="user_left">
+                                                        <img src="images/member_img.png" alt="image" class="img-circle">
+                                                        <div class="msg_content">
+                                                            <h6>Kaden Blankenship</h6>
+                                                            <p><span>12:25am </span> 17-Feb-17</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="like_share">
+                                                        <a href="#">like</a>
+                                                        <a href="#">share</a>
+                                                    </div>
+                                                </div>
+                                                <div class="desc_content">
+                                                    <span>Description</span>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet et libero nec vestibulum. Mogestas congue nisl
+                                                        , a convallis turpis semper id. Nam justo urna, fermentum non ligula eu, pharetra bibendum enim. Cras ut mollis dolor,
+                                                        et dapibus eros.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="single_wall">
+                                            <div class="wall_title">
+                                                <h5>Title will be here</h5>
+                                            </div>
+                                            <div class="wall_img">
+                                                <img src="images/image4.png" alt="image" class="img-responsive"/>
+                                            </div>
+                                            <div class="wall_desc_main">
+                                                <div class="like_share_main">
+                                                    <div class="user_left">
+                                                        <img src="images/member_img.png" alt="image" class="img-circle">
+                                                        <div class="msg_content">
+                                                            <h6>Kaden Blankenship</h6>
+                                                            <p><span>12:25am </span> 17-Feb-17</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="like_share">
+                                                        <a href="#">like</a>
+                                                        <a href="#">share</a>
+                                                    </div>
+                                                </div>
+                                                <div class="desc_content">
+                                                    <span>Description</span>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet et libero nec vestibulum. Mogestas congue nisl
+                                                        , a convallis turpis semper id. Nam justo urna, fermentum non ligula eu, pharetra bibendum enim. Cras ut mollis dolor,
+                                                        et dapibus eros.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane " id="tab2">
+                                        <div class="single_wall activity">
+                                            <ul>
+                                                <li>
+                                                    <p>Kaden Blankenship<span> became</span></p>
+                                                    <p><span>friends with</span> Jhon White.</p>
+                                                    <a href="#" class="edit_activity"></a>
+                                                </li>
+                                                <li>
+                                                    <p>Kaden Blankenship<span> became</span></p>
+                                                    <p><span>friends with</span> Jhon White.</p>
+                                                    <a href="#" class="edit_activity"></a>
+                                                </li>
+                                                <li>
+                                                    <p>Kaden Blankenship<span> became</span></p>
+                                                    <p><span>friends with</span> Jhon White.</p>
+                                                    <a href="#" class="edit_activity"></a>
+                                                </li>
+                                                <li>
+                                                    <p>Kaden Blankenship<span> became</span></p>
+                                                    <p><span>friends with</span> Jhon White.</p>
+                                                    <a href="#" class="edit_activity"></a>
+                                                </li>
+                                                <li>
+                                                    <p>Kaden Blankenship<span> became</span></p>
+                                                    <p><span>friends with</span> Jhon White.</p>
+                                                    <a href="#" class="edit_activity"></a>
+                                                </li>
+                                                <li>
+                                                    <p>Kaden Blankenship<span> became</span></p>
+                                                    <p><span>friends with</span> Jhon White.</p>
+                                                    <a href="#" class="edit_activity"></a>
+                                                </li>
+                                                <li>
+                                                    <p>Kaden Blankenship<span> became</span></p>
+                                                    <p><span>friends with</span> Jhon White.</p>
+                                                    <a href="#" class="edit_activity"></a>
+                                                </li>
+                                                <li>
+                                                    <p>Kaden Blankenship<span> became</span></p>
+                                                    <p><span>friends with</span> Jhon White.</p>
+                                                    <a href="#" class="edit_activity"></a>
+                                                </li>
+                                            </ul>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom_navigation">
+                <ul>
+                    <li><a href="user_home.html" class="home"><span></span>Home</a></li>
+                    <li><a href="#alerts" class="alerts"><span></span>Alerts & Notices</a></li>
+                    <li><a href="#messages" class="msgs"><span></span>Messages</a></li>
+                    <li><a href="javascript:void(0);" class="find_player"><span></span>Find Player</a></li>
+                </ul>
+            </div>
+        </section> 
+        <!--add  event popup start-->
+        <!--Step 1-->
+        <div class="modal fade forget_section" id="myModal21" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="container">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="close_img">
+                                <button type="button" class="close" data-dismiss="modal"></button>
+                            </div>
+                            <div class="title_h2">
+                                <h2>Add Event - Step 1</h2>
+                            </div>
+                        </div>
+                        <div class="modal-body">
+                            <div class="change_step">
+                                <ul>
+                                    <li class="active"><div class="step_number">1</div><span>Step 1 is Active</span></li>
+                                    <li><div class="step_number">2</div><span>Step 2 is Undone</span></li>
+                                    <li><div class="step_number">3</div><span>Step 3 is Undone</span></li>
+                                </ul>
+                            </div>
+                            <form class="media_popup add_new_events">
+                                <input type="text" placeholder="Event Name" required class="input_box"/>                               
+                                <input type="text" placeholder="Event Address" required class="input_box"/>
+                                <select><option>Event Sport</option></select>
+                                <select><option>Date of Event & Time</option></select>
+                                <textarea class="input_box textarea_box" placeholder="Details / Description"></textarea>
+                                <input type="text" placeholder="Contact Phone" required class="input_box"/>                               
+                                <input type="text" placeholder="Contact Email" required class="input_box"/>
+                                <input type="text" placeholder="Event Registration / Info Link" required class="input_box full_box"/>
+                                <div class="event_options">
+                                <span>Showcase on PlayerFax Events Calendar</span>
+                                <input type="radio" name="Showcase" value="" checked> Yes
+                                <input type="radio" name="Showcase" value=""> No
+                                </div>
+                                <div class="all_btn">
+                                    <div class="gray_btn">
+                                        <input type="button" value="Cancel" class="grey_bg_btn" data-dismiss="modal"/>
+                                    </div>
+                                    <div class="blue_btn">
+                                        <input type="submit" value="Submit" class="blue_bg_btn" data-dismiss="modal"  data-toggle="modal" data-target="#myModal22"/>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Step 2-->
+        <div class="modal fade forget_section" id="myModal22" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="container">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="close_img">
+                                <button type="button" class="close" data-dismiss="modal"></button>
+                            </div>
+                            <div class="title_h2">
+                                <h2>Add Admins to Event - Step 2</h2>
+                            </div>
+                        </div>
+                        <div class="modal-body">
+                            <div class="change_step">
+                                <ul>
+                                    <li class="done"><div class="step_number">1</div><span>Step 1 is Done</span></li>
+                                    <li class="active"><div class="step_number">2</div><span>Step 2 is Active</span></li>
+                                    <li><div class="step_number">3</div><span>Step 3 is Undone</span></li>
+                                </ul>
+                            </div>
+                            <div class="add_admins_full">
+                                <div class="add_admins_fullcontent">
+                                    <span>Congratulations “EVENT” has been added</span>
+                                </div>
+                                <div class="add_admins_left">
+                                    <h4>Invite other admins to manage this event from below list:</h4>
+                                    <div class="noti_content msg">
+                                        <ul>
+                                            <li>
+                                                <img src="images/member_img.png" alt="image" class="img-circle">
+                                                <div class="msg_content">
+                                                    <h6>Kaden Blankenship</h6>
+                                                    <p><span>Coach</p>
+                                                </div>
+                                                <span class="time"><a href="#"><img src="images/msgplus.png" alt="image" class="img-responsive"></a></span>
+                                            </li>
+                                            <li>
+                                                <img src="images/member_img.png" alt="image" class="img-circle">
+                                                <div class="msg_content">
+                                                    <h6>Kaden Blankenship</h6>
+                                                    <p><span>Father</p>
+                                                </div>
+                                                <span class="time"><a href="#"><img src="images/msgplus.png" alt="image" class="img-responsive"></a></span>
+                                            </li>
+                                            <li>
+                                                <img src="images/member_img.png" alt="image" class="img-circle">
+                                                <div class="msg_content">
+                                                    <h6>Kaden Blankenship</h6>
+                                                    <p><span>Trainer</p>
+                                                </div>
+                                                <span class="time"><a href="#"><img src="images/msgplus.png" alt="image" class="img-responsive"></a></span>
+                                            </li>
+                                            <li>
+                                                <img src="images/member_img.png" alt="image" class="img-circle">
+                                                <div class="msg_content">
+                                                    <h6>Kaden Blankenship</h6>
+                                                    <p><span>Coach</p>
+                                                </div>
+                                                <span class="time"><a href="#"><img src="images/msgplus.png" alt="image" class="img-responsive"></a></span>
+                                            </li>
+                                            <li>
+                                                <img src="images/member_img.png" alt="image" class="img-circle">
+                                                <div class="msg_content">
+                                                    <h6>Kaden Blankenship</h6>
+                                                    <p><span>Father</p>
+                                                </div>
+                                                <span class="time"><a href="#"><img src="images/msgplus.png" alt="image" class="img-responsive"></a></span>
+                                            </li>
+                                        </ul>
+                                        <a href="#">See More</a>
+                                    </div>
+                                </div>
+                                <div class="add_admins_middle">
+                                    <p>OR</p>
+                                </div>
+                                <div class="add_admins_right">
+                                    <h4>Add an admin for this event:</h4>
+                                    <form>
+                                        <input type="text" placeholder="First Name" class="input_box">
+                                        <input type="text" placeholder="Last Name" class="input_box">
+                                        <input type="text" placeholder="Email" class="input_box">
+                                        <input type="text" placeholder="PlayerFax UserID if Known" class="input_box">
+                                        <input type="text" placeholder="Search admin from your ''friends list''" class="input_box">
+                                        <div class="green_btn">
+                                            <input type="submit" value="Add" class="green_bg_btn" >
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="all_btn">
+                                    <div class="gray_btn">
+                                        <input type="button" value="Skip" class="grey_bg_btn" data-dismiss="modal" data-toggle="modal" data-target="#myModal23">
+                                    </div>
+                                    <div class="blue_btn">
+                                        <input type="button" value="Next" class="blue_bg_btn" data-dismiss="modal" data-toggle="modal" data-target="#myModal23">
+                                    </div>
+                                </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Step 3-->
+        <div class="modal fade forget_section" id="myModal23" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="container">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="close_img">
+                                <button type="button" class="close" data-dismiss="modal"></button>
+                            </div>
+                            <div class="title_h2">
+                                <h2>Add Attendees To Event - Step 3</h2>
+                            </div>
+                        </div>
+                        <div class="modal-body">
+                            <div class="change_step">
+                                <ul>
+                                    <li class="done"><div class="step_number">1</div><span>Step 1 is Done</span></li>
+                                    <li class="done"><div class="step_number">2</div><span>Step 2 is Done</span></li>
+                                    <li class="active"><div class="step_number">3</div><span>Step 3 is Active</span></li>
+                                </ul>
+                            </div>
+                            <div class="add_admins_full">
+                                <div class="add_admins_fullcontent">
+                                    <span>Congratulations "EVENT" has been added</span>
+                                    <span>Admins for “EVENT” have been added</span>
+                                </div>
+                                <div class="add_admins_left">
+                                    <h4>We found players for this event “YOU” may want invite them</h4>
+                                    <div class="noti_content msg">
+                                        <ul>
+                                            <li>
+                                                <img src="images/member_img.png" alt="image" class="img-circle">
+                                                <div class="msg_content">
+                                                    <h6>Kaden Blankenship</h6>
+                                                    <p><span>Already Added</p>
+                                                </div>
+                                                <span class="time"><a href="#"><img src="images/msgplus.png" alt="image" class="img-responsive"></a></span>
+                                            </li>
+                                            <li>
+                                                <img src="images/member_img.png" alt="image" class="img-circle">
+                                                <div class="msg_content">
+                                                    <h6>Kaden Blankenship</h6>
+                                                    <p><span>Already Added</p>
+                                                </div>
+                                                <span class="time"><a href="#"><img src="images/msgplus.png" alt="image" class="img-responsive"></a></span>
+                                            </li>
+                                            <li>
+                                                <img src="images/member_img.png" alt="image" class="img-circle">
+                                                <div class="msg_content">
+                                                    <h6>Kaden Blankenship</h6>
+                                                    <p><span>Already Added</p>
+                                                </div>
+                                                <span class="time"><a href="#"><img src="images/msgplus.png" alt="image" class="img-responsive"></a></span>
+                                            </li>
+                                            <li>
+                                                <img src="images/member_img.png" alt="image" class="img-circle">
+                                                <div class="msg_content">
+                                                    <h6>Kaden Blankenship</h6>
+                                                    <p><span>Add this Player</p>
+                                                </div>
+                                                <span class="time"><a href="#"><img src="images/msgplus.png" alt="image" class="img-responsive"></a></span>
+                                            </li>
+                                            <li>
+                                                <img src="images/member_img.png" alt="image" class="img-circle">
+                                                <div class="msg_content">
+                                                    <h6>Kaden Blankenship</h6>
+                                                    <p><span>Add this Player</p>
+                                                </div>
+                                                <span class="time"><a href="#"><img src="images/msgplus.png" alt="image" class="img-responsive"></a></span>
+                                            </li>
+                                            <li>
+                                                <img src="images/member_img.png" alt="image" class="img-circle">
+                                                <div class="msg_content">
+                                                    <h6>Kaden Blankenship</h6>
+                                                    <p><span>Already Added</p>
+                                                </div>
+                                                <span class="time"><a href="#"><img src="images/msgplus.png" alt="image" class="img-responsive"></a></span>
+                                            </li>
+                                            <li>
+                                                <img src="images/member_img.png" alt="image" class="img-circle">
+                                                <div class="msg_content">
+                                                    <h6>Kaden Blankenship</h6>
+                                                    <p><span>Add this Player</p>
+                                                </div>
+                                                <span class="time"><a href="#"><img src="images/msgplus.png" alt="image" class="img-responsive"></a></span>
+                                            </li>
+                                            <li>
+                                                <img src="images/member_img.png" alt="image" class="img-circle">
+                                                <div class="msg_content">
+                                                    <h6>Kaden Blankenship</h6>
+                                                    <p><span>Already Added</p>
+                                                </div>
+                                                <span class="time"><a href="#"><img src="images/msgplus.png" alt="image" class="img-responsive"></a></span>
+                                            </li>
+                                        </ul>
+                                        <a href="#">See More</a>
+                                    </div>
+                                </div>
+                                <div class="add_admins_middle">
+                                    <p>OR</p>
+                                </div>
+                                <div class="add_admins_right">
+                                    <h4>Add players to invite this event:</h4>
+                                    <form>
+                                        <span>Upload a csv or spreadsheet of players </span>
+                                        <div class="upload_file">
+                                            <input id="uploadFile" class="input_box">
+                                            <div class="fileUpload">
+                                                <span>Browse</span>
+                                                <input id="uploadBtn" type="file" class="upload">
+                                            </div>
+                                        </div>
+                                        <div class="green_btn">
+                                            <input type="submit" value="Add" class="green_bg_btn" >
+                                        </div>
+                                    </form>
+                                    <div class="big_blue">
+                                    <p>OR</p>
+                                    </div>
+                                    <div class="gray_link">
+                                        <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#myModal24">Click here to manually add a new player</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="all_btn">
+                                    <div class="gray_btn">
+                                        <input type="button" value="Skip" class="grey_bg_btn" data-dismiss="modal" >
+                                    </div>
+                                    <div class="blue_btn">
+                                        <input type="button" value="Next" class="blue_bg_btn" data-dismiss="modal" >
+                                    </div>
+                                </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Step Add New Event-->
+        <div class="modal fade forget_section" id="myModal24" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="container">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="close_img">
+                                <button type="button" class="close" data-dismiss="modal"></button>
+                            </div>
+                            <div class="title_h2">
+                                <h2>Add New Players</h2>
+                            </div>
+                        </div>
+                        <div class="modal-body">
+                            <div class="add_players_table">
+                                <div class="add_table">
+                                    <div class="add_table_row">
+                                        <div class="add_table_col">
+                                            Camp / Event ID
+                                        </div>
+                                        <div class="add_table_col">
+                                            First Name
+                                        </div>
+                                        <div class="add_table_col">
+                                            Middle Name (or initial)
+                                        </div>
+                                        <div class="add_table_col">
+                                            Last Name
+                                        </div>
+                                        <div class="add_table_col">
+                                            Grade Year
+                                        </div>
+                                        <div class="add_table_col">
+                                            DOB
+                                        </div>
+                                        <div class="add_table_col">
+                                            City
+                                        </div>
+                                        <div class="add_table_col">
+                                            State
+                                        </div>
+                                        <div class="add_table_col">
+                                            Parent / Guardian
+                                        </div>
+                                        <div class="add_table_col">
+                                            Email
+                                        </div>
+                                        <div class="add_table_col">
+                                            Secondary Parent / Guardian
+                                        </div>
+                                        <div class="add_table_col">
+                                            Secondary Email
+                                        </div>
+                                    </div>    
+                                    <div class="add_table_row textbox_row">
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                    </div>      
+                                    <div class="add_table_row textbox_row">
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                    </div>       
+                                    <div class="add_table_row textbox_row">
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                    </div>       
+                                    <div class="add_table_row textbox_row">
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                    </div>       
+                                    <div class="add_table_row textbox_row">
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                    </div>       
+                                    <div class="add_table_row textbox_row">
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                    </div>       
+                                    <div class="add_table_row textbox_row">
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                    </div>       
+                                    <div class="add_table_row textbox_row">
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                    </div>       
+                                    <div class="add_table_row textbox_row">
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                    </div>       
+                                    <div class="add_table_row textbox_row">
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                    </div>       
+                                    <div class="add_table_row textbox_row">
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                    </div>       
+                                    <div class="add_table_row textbox_row">
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                           <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                        <div class="add_table_col">
+                                            <input type="text" name="">
+                                        </div>
+                                    </div>                                     
+                                </div>
+                            </div>
+                            <div class="noti_content msg">
+                                <a href="#" class="add_row">Add More Rows</a>
+                            </div>
+                            <div class="all_btn">
+                                    <div class="gray_btn">
+                                        <input type="button" value="Cancel" class="grey_bg_btn" data-dismiss="modal">
+                                    </div>
+                                    <div class="blue_btn">
+                                        <input type="button" value="Next" class="blue_bg_btn" data-dismiss="modal">
+                                    </div>
+                                </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <!--add  event popup end-->
+
+        <!--Add event manage popup-->
+        <div class="modal fade forget_section" id="myModal25" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="container">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="close_img">
+                                <button type="button" class="close" data-dismiss="modal"></button>
+                            </div>
+                            <div class="title_h2">
+                                <h2>Manage Events</h2>
+                            </div>
+                        </div>
+                        <div class="modal-body">
+                            <div class="panel-group manage_accordion" id="accordion1">
+                                <div class="panel panel-default">
+                                	<div class="panel-heading active">
+                                        <h4 class="panel-title">                    
+                                            <a  data-toggle="collapse" data-parent="#accordion1" href="#m1">
+                                                Title of Event will be here
+                                                <span>Event location address</span>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="m1" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                           <div class="event_description">
+                                           		<div class="event_time">
+                                           			<p>10:00am<span>29-Mar-17</span></p>
+                                           			<div class="event_title">
+                                           			<h5>Event Description</h5>
+                                           			<p>Event description detail text will goes here detail text will detail text will goes heredetail text will goes here detail text will.</p>
+                                           			</div>                                            			
+                                           		</div> 
+                                           		<div  class="event_img">
+                                           			<img src="images/manage_event.png" class="img-responsive" alt=""> 
+                                           		</div>                                           		                                         		
+                                           </div>  
+                                           <div class="admin_listed">
+                                           		<div class="event_title">
+                                           			<h5>Admins Listed:</h5>                                           			
+                                           			</div>     
+                                           		   
+                                           		<div class="tags">
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           		</div>   
+                                           	</div>   
+                                           	<div class="admin_listed">
+                                           		<div class="event_title">
+                                           			<h5>Players Invited:</h5>                                           			
+                                           			</div>     
+                                           		   
+                                           		<div class="tags">
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           		</div>   
+
+                                           		<div class="all_edit_btn">
+                                           			<a href="#" class="grey_edit_btn">Edit Event</a>
+                                           			<a href="#" class="red_edit_btn">Delete Event</a>
+                                           			<a href="#" class="blue_edit_btn">Invite Admin/Player</a>
+                                           			<a href="#" class="green_edit_btn">Enter Results</a>
+                                           		</div>
+                                           	</div>                                   
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                	<div class="panel-heading">
+                                        <h4 class="panel-title">                    
+                                            <a  data-toggle="collapse" data-parent="#accordion1" href="#m2">
+                                                Title of Event will be here
+                                                <span>Event location address</span>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="m2" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                           <div class="event_description">
+                                           		<div class="event_time">
+                                           			<p>10:00am<span>29-Mar-17</span></p>
+                                           			<div class="event_title">
+                                           			<h5>Event Description</h5>
+                                           			<p>Event description detail text will goes here detail text will detail text will goes heredetail text will goes here detail text will.</p>
+                                           			</div>                                            			
+                                           		</div> 
+                                           		<div  class="event_img">
+                                           			<img src="images/manage_event.png" class="img-responsive" alt=""> 
+                                           		</div>                                           		                                         		
+                                           </div>  
+                                           <div class="admin_listed">
+                                           		<div class="event_title">
+                                           			<h5>Admins Listed:</h5>                                           			
+                                           			</div>     
+                                           		   
+                                           		<div class="tags">
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           		</div>   
+                                           	</div>   
+                                           	<div class="admin_listed">
+                                           		<div class="event_title">
+                                           			<h5>Players Invited:</h5>                                           			
+                                           			</div>     
+                                           		   
+                                           		<div class="tags">
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           		</div>   
+
+                                           		<div class="all_edit_btn">
+                                           			<a href="#" class="grey_edit_btn">Edit Event</a>
+                                           			<a href="#" class="red_edit_btn">Delete Event</a>
+                                           			<a href="#" class="blue_edit_btn">Invite Admin/Player</a>
+                                           			<a href="#" class="green_edit_btn">Enter Results</a>
+                                           		</div>
+                                           	</div>                                   
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                	<div class="panel-heading">
+                                        <h4 class="panel-title">                    
+                                            <a  data-toggle="collapse" data-parent="#accordion1" href="#m3">
+                                                Title of Event will be here
+                                                <span>Event location address</span>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="m3" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                           <div class="event_description">
+                                           		<div class="event_time">
+                                           			<p>10:00am<span>29-Mar-17</span></p>
+                                           			<div class="event_title">
+                                           			<h5>Event Description</h5>
+                                           			<p>Event description detail text will goes here detail text will detail text will goes heredetail text will goes here detail text will.</p>
+                                           			</div>                                            			
+                                           		</div> 
+                                           		<div  class="event_img">
+                                           			<img src="images/manage_event.png" class="img-responsive" alt=""> 
+                                           		</div>                                           		                                         		
+                                           </div>  
+                                           <div class="admin_listed">
+                                           		<div class="event_title">
+                                           			<h5>Admins Listed:</h5>                                           			
+                                           			</div>     
+                                           		   
+                                           		<div class="tags">
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           		</div>   
+                                           	</div>   
+                                           	<div class="admin_listed">
+                                           		<div class="event_title">
+                                           			<h5>Players Invited:</h5>                                           			
+                                           			</div>     
+                                           		   
+                                           		<div class="tags">
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           		</div>   
+
+                                           		<div class="all_edit_btn">
+                                           			<a href="#" class="grey_edit_btn">Edit Event</a>
+                                           			<a href="#" class="red_edit_btn">Delete Event</a>
+                                           			<a href="#" class="blue_edit_btn">Invite Admin/Player</a>
+                                           			<a href="#" class="green_edit_btn">Enter Results</a>
+                                           		</div>
+                                           	</div>                                   
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                	<div class="panel-heading">
+                                        <h4 class="panel-title">                    
+                                            <a  data-toggle="collapse" data-parent="#accordion1" href="#m4">
+                                                Title of Event will be here
+                                                <span>Event location address</span>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="m4" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                           <div class="event_description">
+                                           		<div class="event_time">
+                                           			<p>10:00am<span>29-Mar-17</span></p>
+                                           			<div class="event_title">
+                                           			<h5>Event Description</h5>
+                                           			<p>Event description detail text will goes here detail text will detail text will goes heredetail text will goes here detail text will.</p>
+                                           			</div>                                            			
+                                           		</div> 
+                                           		<div  class="event_img">
+                                           			<img src="images/manage_event.png" class="img-responsive" alt=""> 
+                                           		</div>                                           		                                         		
+                                           </div>  
+                                           <div class="admin_listed">
+                                           		<div class="event_title">
+                                           			<h5>Admins Listed:</h5>                                           			
+                                           			</div>     
+                                           		   
+                                           		<div class="tags">
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           		</div>   
+                                           	</div>   
+                                           	<div class="admin_listed">
+                                           		<div class="event_title">
+                                           			<h5>Players Invited:</h5>                                           			
+                                           			</div>     
+                                           		   
+                                           		<div class="tags">
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           		</div>   
+
+                                           		<div class="all_edit_btn">
+                                           			<a href="#" class="grey_edit_btn">Edit Event</a>
+                                           			<a href="#" class="red_edit_btn">Delete Event</a>
+                                           			<a href="#" class="blue_edit_btn">Invite Admin/Player</a>
+                                           			<a href="#" class="green_edit_btn">Enter Results</a>
+                                           		</div>
+                                           	</div>                                   
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                	<div class="panel-heading">
+                                        <h4 class="panel-title">                    
+                                            <a  data-toggle="collapse" data-parent="#accordion1" href="#m5">
+                                                Title of Event will be here
+                                                <span>Event location address</span>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="m5" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                           <div class="event_description">
+                                           		<div class="event_time">
+                                           			<p>10:00am<span>29-Mar-17</span></p>
+                                           			<div class="event_title">
+                                           			<h5>Event Description</h5>
+                                           			<p>Event description detail text will goes here detail text will detail text will goes heredetail text will goes here detail text will.</p>
+                                           			</div>                                            			
+                                           		</div> 
+                                           		<div  class="event_img">
+                                           			<img src="images/manage_event.png" class="img-responsive" alt=""> 
+                                           		</div>                                           		                                         		
+                                           </div>  
+                                           <div class="admin_listed">
+                                           		<div class="event_title">
+                                           			<h5>Admins Listed:</h5>                                           			
+                                           			</div>     
+                                           		   
+                                           		<div class="tags">
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           		</div>   
+                                           	</div>   
+                                           	<div class="admin_listed">
+                                           		<div class="event_title">
+                                           			<h5>Players Invited:</h5>                                           			
+                                           			</div>     
+                                           		   
+                                           		<div class="tags">
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           			<div class="grey_tag_box">
+                                           				<div class="text_box_tag">Admin Name Here</div>
+                                           				<img src="images/tag_close.png" class="tag_close">
+                                           			</div>
+                                           		</div>   
+
+                                           		<div class="all_edit_btn">
+                                           			<a href="#" class="grey_edit_btn">Edit Event</a>
+                                           			<a href="#" class="red_edit_btn">Delete Event</a>
+                                           			<a href="#" class="blue_edit_btn">Invite Admin/Player</a>
+                                           			<a href="#" class="green_edit_btn">Enter Results</a>
+                                           		</div>
+                                           	</div>                                   
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+        <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/country-region-selector/dist/jquery.crs.min.js"></script>               
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+        <script src="js/bootstrap-datepicker.js" type="text/javascript"></script>
+        <script src="js/datetimepicker.js" type="text/javascript"></script>
+        <script src="js/select2.js" type="text/javascript"></script>
+        <script src="js/bootstrap-tabcollapse.js" type="text/javascript"></script>
+        <script src="js/SmoothScroll.js" type="text/javascript"></script>
+        <script src="js/custom.js" type="text/javascript"></script>
+    </body>
+</html>

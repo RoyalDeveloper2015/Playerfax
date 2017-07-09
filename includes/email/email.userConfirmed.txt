@@ -1,0 +1,9 @@
+
+%NAME%, Welcome to Playerfax
+
+Thank you for confirming your account
+
+Use this link to Login:
+https://playerfax.com/index.php?page=login
+
+

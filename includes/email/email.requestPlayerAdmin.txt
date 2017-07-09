@@ -1,0 +1,11 @@
+
+Hello %ADMIN_NAME%,
+
+%USER_NAME% is requesting Admin rights for %PLAYER_NAME%'s player card. This would allow %USER_NAME% to modify %PLAYER_NAME%'s player card.
+
+Reason: %REQUEST_REASON%
+
+If you would like to grant permission for this, then use the link below. Otherwise, ignore this request and it will expire in one week.
+
+https://playerfax.com/index.php?action=requestPlayerAdmin&token=%CONFIRM_TOKEN%
+

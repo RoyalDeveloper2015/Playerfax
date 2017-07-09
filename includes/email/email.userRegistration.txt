@@ -1,0 +1,17 @@
+
+%NAME%, Welcome to Playerfax
+
+Please confirm your account by going to this link in your web browser.
+https://playerfax.com/index.php?action=confirm&token=%CONFIRM_TOKEN%
+
+
+Before you can login, you must confirm your account.
+
+Unconfirmed accounts will be deleted after 48 hours.
+
+After you have confirmed your account, you may login with your Email and Password.
+https://playerfax.com/index.php?page=login
+
+Email: %EMAIL%
+Password: %PASSWORD%
+
