@@ -1,9 +1,5 @@
 <?php
-
-ini_set('session.use_only_cookies', 1); // Forces sessions to only use cookies.
-$cookieParams = session_get_cookie_params(); // Gets current cookies params.
-session_set_cookie_params($cookieParams["lifetime"], $cookieParams["path"], $cookieParams["domain"], false, true);
-session_start();
+require_once __DIR__ . '/../includes/Facebook/autoload.php';
 
 $msgBox = '';
 
@@ -23,6 +19,23 @@ $userPicture = '';
 $userPermissions = '';
 $userPassword = '';
 $userPasswordFromDb = '';
+
+if (isset($_POST['submit']) && $_POST['submit'] =='fblogin' ) {
+    $fb = new Facebook\Facebook([
+    'app_id' => FB_APP_ID, // Replace {app-id} with your app id
+    'app_secret' => FB_APP_SECRET,
+    'default_graph_version' => 'v2.9',
+    ]);
+    $helper = $fb->getRedirectLoginHelper();
+
+    $permissions = ['email'];
+    // print_r($_SERVER);
+    // print_r($_SERVER['SERVER_NAME'] . $_SERVER['SCRIPT_NAME'] . '?page=getFbInfo');
+    // print_r($_SERVER['HTTP_REFERER'] . 'index.php?page=getFbInfo');
+    $loginUrl = $helper->getLoginUrl('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['SCRIPT_NAME'] . '?page=getFbInfo',$permissions);
+    echo '<script type="text/javascript">window.top.location.href="' . $loginUrl . '"</script>';
+
+}
 
 if (isset($_POST['submit']) && $_POST['submit'] == 'login') {
 
@@ -53,17 +66,17 @@ if (isset($_POST['submit']) && $_POST['submit'] == 'login') {
                   `Users`.`Picture`,
                   `Users`.`Password`,
                   `UserOptions`.`Permissions` AS `UserPermissions`
-                FROM 
-                  `Users` 
+                FROM
+                  `Users`
                 USE INDEX (`EmailIsActive`)
-                LEFT JOIN 
+                LEFT JOIN
                   `UserOptions`
                 USE INDEX FOR JOIN (`UserId`)
                 ON
                   `UserOptions`.`UserId` = `Users`.`UserId`
                 WHERE
                   `Users`.`Email` = :Email
-                AND 
+                AND
                   `Users`.`IsActive` = 1";
 
                 $stmt = $PDO->prepare($sql);
@@ -104,7 +117,7 @@ if (isset($_POST['submit']) && $_POST['submit'] == 'login') {
 
             if (password_verify($userPassword, $userPasswordFromDb)) {
 
-                $_SESSION['userIp'] = $userIp;
+                $_SESSION['userIp'] = $_SERVER['HTTP_CLIENT_IP'];
                 $_SESSION['userId'] = $userId;
                 $_SESSION['userEmail'] = $userEmail;
                 $_SESSION['userGender'] = $userGender;
@@ -150,14 +163,14 @@ if (isset($_POST['submit']) && $_POST['submit'] == 'reset') {
 
             try {
                 $sql = "
-                SELECT 
-                  `Users`.* 
-                FROM 
-                  `Users` 
+                SELECT
+                  `Users`.*
+                FROM
+                  `Users`
                 USE INDEX (`EmailIsActive`)
                 WHERE
                   `Users`.`Email` = :Email
-                AND 
+                AND
                   `Users`.`IsActive` = 1";
 
                 $stmt = $PDO->prepare($sql);
@@ -179,16 +192,16 @@ if (isset($_POST['submit']) && $_POST['submit'] == 'reset') {
 
                 try {
                     $sql = "
-                    INSERT INTO `ResetPassword` 
+                    INSERT INTO `ResetPassword`
                     (
                       `ResetId` ,
                       `Created` ,
                       `UserId` ,
                       `Token`
                     ) VALUES (
-                      NULL , 
-                      :Created, 
-                      :UserId, 
+                      NULL ,
+                      :Created,
+                      :UserId,
                       :Token
                     )";
 
@@ -263,6 +276,7 @@ if (isset($_POST['submit']) && $_POST['submit'] == 'reset') {
     <link type="text/css" rel="stylesheet" href="css/flexslider.css"/>
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
     <link type="text/css" rel="stylesheet" href="css/responsive.css"/>
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.css"/>
 </head>
 <body class="login_bg">
 <section class="login_section">
@@ -289,6 +303,9 @@ if (isset($_POST['submit']) && $_POST['submit'] == 'reset') {
                         <label>Remember me</label>
                     </div>
                     <button type="submit" name="submit" value="login" class="btn btn_blue pull-right"><i class="fa fa-check-square-o"></i> Log in</button>
+                </form>
+                <form action="index.php?page=login" method="post">
+                    <button type="submit" name="submit" value="fblogin" type="button" class="btn btn-link">Login with <i class="fa fa-facebook-square"></i> </button>
                 </form>
                 <p><a href="#" data-toggle="modal" data-target="#myModal">Get help</a> accessing your account.</p>
                 <p><a href="index.php?page=registration">Sign up</a> for an account.</p>

@@ -1,21 +1,41 @@
 <?php
 
-session_start();
+require_once __DIR__ . '/includes/Facebook/autoload.php';
+// Config
+require 'config.php';
 
+session_start();
 // Logout
 if (isset($_GET['page'])) {
     $page = $_GET['page'];
     if ($page == 'logout') {
-        $cookieParams = session_get_cookie_params();
-        setcookie(session_name(), '', 0, $cookieParams['path'], $cookieParams['domain'], $cookieParams['secure'], isset($cookieParams['httponly']));
-        session_destroy();
-        session_write_close();
-        header('Location: index.php?page=login');
+        if ( isset($_SESSION['facebook_access_token']) ) {
+            $cookieParams = session_get_cookie_params();
+            setcookie(session_name(), '', 0, $cookieParams['path'], $cookieParams['domain'], $cookieParams['secure'], isset($cookieParams['httponly']));
+
+            $fb = new Facebook\Facebook([
+            'app_id' => FB_APP_ID, // Replace {app-id} with your app id
+            'app_secret' => FB_APP_SECRET,
+            'default_graph_version' => 'v2.2',
+            ]);
+            $token = $_SESSION['facebook_access_token'];
+            $helper = $fb->getRedirectLoginHelper();
+            $logoutUrl = $helper->getLogoutUrl($token,$_SERVER['HTTP_REFERER']);
+            $_SESSION['facebook_access_token'] = '';
+            session_destroy();
+            session_write_close();
+            echo '<script>window.top.location.href="' . $logoutUrl . '"</script>';
+        } else {
+            $cookieParams = session_get_cookie_params();
+            setcookie(session_name(), '', 0, $cookieParams['path'], $cookieParams['domain'], $cookieParams['secure'], isset($cookieParams['httponly']));
+            session_destroy();
+            session_write_close();
+            header('Location: index.php?page=login');
+        }
     }
 }
 
-// Config
-require 'config.php';
+
 // Functions
 require 'includes/functions.php';
 
@@ -59,17 +79,17 @@ if (isset($_SESSION['userId'])) {
                   `Users`.`Picture`,
                   `Users`.`Password`,
                   `UserOptions`.`Permissions` AS `UserPermissions`
-                FROM 
-                  `Users` 
+                FROM
+                  `Users`
                 USE INDEX (`UserIdIsActive`)
-                LEFT JOIN 
+                LEFT JOIN
                   `UserOptions`
                 USE INDEX FOR JOIN (`UserId`)
                 ON
                   `UserOptions`.`UserId` = `Users`.`UserId`
                 WHERE
                   `Users`.`UserId` = :UserId
-                AND 
+                AND
                   `Users`.`IsActive` = 1";
 
         $stmt = $PDO->prepare($sql);
@@ -259,10 +279,17 @@ if (isset($_GET['page']) && $_GET['page'] == 'registration') {
     $page = 'shareUserPost';
 } else if (isset($_GET['action']) && $_GET['action'] == 'shareUserMedia') {
     $page = 'shareUserMedia';
+} else if (isset($_GET['page']) && $_GET['page'] == 'fb-callback') {
+    $page = 'fbcallback';
+} else if (isset($_GET['page']) && $_GET['page'] == 'fblogin') {
+    $page = 'fblogin';
+} else if (isset($_GET['page']) && $_GET['page'] == 'getFbInfo') {
+    $page = 'getFBInfo';
 } else {
     if (!empty($_GET['page'])) {
         // Load the Page
-        require 'pages/404.php';
+        print_r($_GET['page']);
+        // require 'pages/404.php';
         exit;
     }
 }
@@ -271,4 +298,3 @@ if (file_exists('pages/' . $page . '.php')) {
     // Load the Page
     require 'pages/' . $page . '.php';
 }
-

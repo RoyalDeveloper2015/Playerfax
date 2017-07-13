@@ -1,6 +1,6 @@
 <?php
 
-if (!isset($_SESSION['userId'])) {
+if (! (isset($_SESSION['userId']) || isset($_SESSION['facebook_access_token'] ) )) {
     header('Location: index.php?page=login');
     exit;
 }
@@ -309,14 +309,14 @@ if (!isset($_SESSION['userId'])) {
                             // Get four most followed players
                             try {
                                 $sql_follow = "
-                                SELECT 
+                                SELECT
                                   COUNT(`Follows`.`FollowId`) AS `totalFollows`,
                                   `Follows`.`FollowId`,
                                   `Follows`.`Designation` AS `FollowDesignation`,
                                   `Follows`.`UserId` AS `FollowUserId`,
                                   `Follows`.`UserIdFrom` AS `FollowUserIdFrom`,
                                   `Follows`.`PlayerId` AS `FollowPlayerId`
-                                FROM 
+                                FROM
                                   `Follows`
                                 WHERE
                                   `Follows`.`UserId` = :UserId
@@ -334,7 +334,7 @@ if (!isset($_SESSION['userId'])) {
                                     // Select Player data
                                     try {
                                         $sql_player = "
-                                        SELECT 
+                                        SELECT
                                           `Players`.`PlayerId`,
                                           `Players`.`UserId` AS `PlayerUserId`,
                                           `Players`.`LastUpdated` AS `PlayerLastUpdated`,
@@ -344,7 +344,7 @@ if (!isset($_SESSION['userId'])) {
                                           `Players`.`LastName` AS `PlayerLastName`,
                                           `Players`.`Designation` AS `PlayerDesignation`,
                                           `Players`.`Token` AS `PlayerToken`
-                                        FROM 
+                                        FROM
                                           `Players`
                                         WHERE
                                           `Players`.`PlayerId` = :PlayerId";
@@ -415,14 +415,14 @@ if (!isset($_SESSION['userId'])) {
                                     $count = 0;
                                     try {
                                         $sql_alert = "
-                                        SELECT 
+                                        SELECT
                                           `UserId`,
                                           `UserIdFrom`,
                                           `PlayerId`,
                                           `Created`,
                                           `Type`
-                                        FROM 
-                                          `Alerts` 
+                                        FROM
+                                          `Alerts`
                                         WHERE
                                           `UserId` = :UserId";
 
@@ -465,15 +465,15 @@ if (!isset($_SESSION['userId'])) {
                                             $userFromName = '';
                                             try {
                                                 $sql_user = "
-                                                SELECT 
+                                                SELECT
                                                   `Users`.`UserId`,
                                                   `Users`.`Email`,
                                                   `Users`.`FirstName`,
                                                   `Users`.`LastName`,
                                                   `Users`.`Token`,
                                                   `Users`.`Picture`
-                                                FROM 
-                                                  `Users` 
+                                                FROM
+                                                  `Users`
                                                 WHERE
                                                   `UserId` = :UserIdFrom";
 
@@ -494,11 +494,11 @@ if (!isset($_SESSION['userId'])) {
                                             if (!empty($row_alert['PlayerId'])) {
                                                 try {
                                                     $sql_player = "
-                                                    SELECT 
+                                                    SELECT
                                                       `Players`.`FirstName`,
                                                       `Players`.`LastName`
-                                                    FROM 
-                                                      `Players` 
+                                                    FROM
+                                                      `Players`
                                                     WHERE
                                                       `PlayerId` = :PlayerId";
 
@@ -569,12 +569,12 @@ if (!isset($_SESSION['userId'])) {
                                     $count = 0;
                                     try {
                                         $sql_message = "
-                                        SELECT 
-                                          AES_DECRYPT(`Content`, SUBSTRING(`Token`, 4, 16)) AS `MessageContent`, 
+                                        SELECT
+                                          AES_DECRYPT(`Content`, SUBSTRING(`Token`, 4, 16)) AS `MessageContent`,
                                           `UserIdFrom`,
                                           `Created`
-                                        FROM 
-                                          `Messages` 
+                                        FROM
+                                          `Messages`
                                         WHERE
                                           `UserId` = :UserId";
 
@@ -587,7 +587,7 @@ if (!isset($_SESSION['userId'])) {
 
                                             try {
                                                 $sql_user = "
-                                                SELECT 
+                                                SELECT
                                                   `Users`.`UserId`,
                                                   `Users`.`Email`,
                                                   `Users`.`Gender`,
@@ -595,8 +595,8 @@ if (!isset($_SESSION['userId'])) {
                                                   `Users`.`LastName`,
                                                   `Users`.`Token`,
                                                   `Users`.`Picture`
-                                                FROM 
-                                                  `Users` 
+                                                FROM
+                                                  `Users`
                                                 WHERE
                                                   `UserId` = :UserIdFrom";
 
